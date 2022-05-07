@@ -8105,6 +8105,7 @@ button.close {
   opacity: 0.9;
 }
 .header-sky.header-top-sky .header-top {
+  margin-top: -90px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -15307,6 +15308,7 @@ a:focus {
     opacity: 0.9;
   }
   .header-top-sky .header-top {
+    margin-top: -90px;
     border: none;
   }
 
@@ -16246,6 +16248,7 @@ a:focus {
   .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text {
     width: auto;
     padding: 0;
+    transform: translateY(0px);
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
     -ms-transform: translateY(0px);
