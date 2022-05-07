@@ -36,20 +36,20 @@ const AboutUs: React.FC<AboutUsProps> = () => {
               <div className="about-img">
                 <div className="img-1">
                   <img
-                    src="./Home 1_files/about-3.jpg"
+                    src="https://dev.hotelvalledelvolcan.info/images/carousel/laguna-verde.jpg"
                     className="img-responsive"
                     alt=""
                   />
                   <div className="img-2">
                     <img
-                      src="./Home 1_files/about-1.jpg"
+                      src="https://dev.hotelvalledelvolcan.info/images/carousel/laguna-verde.jpg"
                       className="img-responsive"
                       alt=""
                     />
                   </div>
                   <div className="img-3">
                     <img
-                      src="./Home 1_files/about-2.jpg"
+                      src="https://dev.hotelvalledelvolcan.info/images/carousel/laguna-verde.jpg"
                       className="img-responsive"
                       alt=""
                     />

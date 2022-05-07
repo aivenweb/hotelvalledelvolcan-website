@@ -1,6 +1,7 @@
 import React from "react";
 import ScrollToTop from "../ScrollToTop";
 import AboutUs from "./AboutUs";
+import BlogSection from "./blog/BlogSection";
 import Cover from "./cover/Cover";
 import Footer from "./footer/Footer";
 import Gallery from "./gallery/Gallery";
@@ -16,6 +17,7 @@ const HomePageComponent: React.FC<HomePageComponentProps> = () => {
       <Cover />
       <AboutUs/>
       <IconsSection/>
+      <BlogSection/>
       <Gallery/>
       <Footer/>
       <ScrollToTop/>

@@ -46,21 +46,21 @@ const Footer: React.FC<FooterProps> = () => {
                   href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   title="Twitter"
                   ><i className="fa fa-twitter" aria-hidden="true"></i
-                ></a>
+                >fb</a>
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   title="Facebook"
                   ><i className="fa fa-facebook-square" aria-hidden="true"></i
-                ></a>
+                >home</a>
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   title="Tripadvisor"
                   ><i className="fa fa-tripadvisor" aria-hidden="true"></i
-                ></a>
+                >trip</a>
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   title="Isnstagram"
-                  ><i className="fa fa-instagram" aria-hidden="true"></i
+                  >demo<i className="fa fa-instagram" aria-hidden="true"></i
                 ></a>
               </div>
             </div>
@@ -75,7 +75,7 @@ const Footer: React.FC<FooterProps> = () => {
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/index.html"
                   title="Skyline"
-                  ><img src="./Home 1_files/sky-logo-footer.png" alt="Image"
+                  ><img src="./Home 1_files/sky-logo-footer.png" alt=""
                 /></a>
               </div>
             </div>
