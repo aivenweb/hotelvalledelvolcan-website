@@ -7,6 +7,7 @@ import Footer from "./footer/Footer";
 import Gallery from "./gallery/Gallery";
 import Header from "./header/Header";
 import IconsSection from "./icons-section/IconsSection";
+import OurServices from "./our-services/OurServices";
 
 interface HomePageComponentProps {}
 
@@ -16,11 +17,11 @@ const HomePageComponent: React.FC<HomePageComponentProps> = () => {
       <Header />
       <Cover />
       <AboutUs/>
+      <OurServices/>
       <IconsSection/>
       <BlogSection/>
       <Gallery/>
       <Footer/>
-      <ScrollToTop/>
     </>
   );
 };

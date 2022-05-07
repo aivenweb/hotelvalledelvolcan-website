@@ -10,7 +10,7 @@ const AboutUs: React.FC<AboutUsProps> = () => {
           <div className="row">
             <div className="col-xs-12 col-sm-6 col-md-5 col-lg-5">
               <div className="about-centent">
-                <h2 className="about-title">About Us</h2>
+                <h2 className="about-title">Nosotros</h2>
                 <div className="line"></div>
                 <p className="about-p">
                   Contrary to popular belief, Lorem isn’t simply random text. It

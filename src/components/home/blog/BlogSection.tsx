@@ -4,13 +4,13 @@ interface BlogSectionProps {}
 
 const BlogSection: React.FC<BlogSectionProps> = () => {
   return (
-    <div>
-      <section className="news">
+    <div id="blog">
+      <section className="blog-section">
         <div className="container">
-          <h2 className="new-title">News</h2>
+          <h2 className="blog-title">Blog</h2>
           <div className="line"></div>
           <div className="row">
-            <div className="news-content">
+            <div className="blog-content">
               <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                 <div className="substance">
                   <div className="date">
