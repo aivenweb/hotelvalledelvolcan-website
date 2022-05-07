@@ -11,11 +11,10 @@ const HeaderTop: React.FC<HeaderTopProps> = () => {
             <i className="ion-android-cloud-outline"></i>18 °C
           </span>
           <span>
-            <i className="ion-ios-location-outline"></i> 121 King Str, Melbourne
-            Victoria
+            <i className="ion-ios-location-outline"></i> Herrero Ducloux 120, Copahue Q8348AGA Argentina
           </span>
           <span>
-            <i className="fa fa-phone" aria-hidden="true"></i> 1-548-854-8898
+            <i className="fa fa-phone" aria-hidden="true"></i> +54 9 2942 66-9435
           </span>
         </div>
       </div>

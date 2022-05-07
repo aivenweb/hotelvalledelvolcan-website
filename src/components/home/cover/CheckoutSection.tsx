@@ -47,16 +47,16 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <div>1</div>
+                      <a>1</a>
                     </li>
                     <li>
-                      <div>2</div>
+                      <a>2</a>
                     </li>
                     <li>
-                      <div>3</div>
+                      <a>3</a>
                     </li>
                     <li>
-                      <div>4</div>
+                      <a>4</a>
                     </li>
                   </ul>
                 </div>
@@ -77,16 +77,16 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <div>1</div>
+                      <a>1</a>
                     </li>
                     <li>
-                      <div>2</div>
+                      <a>2</a>
                     </li>
                     <li>
-                      <div>3</div>
+                      <a>3</a>
                     </li>
                     <li>
-                      <div>4</div>
+                      <a>4</a>
                     </li>
                   </ul>
                 </div>

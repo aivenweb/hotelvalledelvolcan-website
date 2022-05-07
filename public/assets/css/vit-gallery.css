@@ -308,13 +308,13 @@ body.slide-blur {
   right: 0;
   width: 0;
   height: 3px;
-  background-color: #8e7037;
+  background-color: #bf9b79;
 }
 .gallery__thumbnail.current img {
   opacity: 1;
 }
 .gallery__thumbnail.current i {
-  background-color: #8e7037;
+  background-color: #bf9b79;
   width: 100%;
 }
 .gallery .slick-track {

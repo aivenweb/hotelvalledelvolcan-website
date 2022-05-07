@@ -14,10 +14,10 @@ const Cover: React.FC<CoverProps> = () => {
             className="img-responsive"
           />
           <div className="carousel-caption">
-            <h1>Welcome to Skyline</h1>
+            <h1>Hotel Valle del Volcán</h1>
             <p>
-              <span className="line-t"></span>Hotels &amp; Resorts
-              <span className="line-b"></span>
+              <span className="line-t"></span>Un lugar diferente para tus vacaciones
+              <span className="line-b"></span> 
             </p>
           </div>
         </div>
