@@ -8105,7 +8105,7 @@ button.close {
   opacity: 0.9;
 }
 .header-sky.header-top-sky .header-top {
-  /* margin-top: -90px; */
+  margin-top: -90px;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
@@ -15297,7 +15297,7 @@ a:focus {
     padding: 10px 25px !important;
   }
   .header-top-sky .header-top {
-    /* margin-top: -90px; */
+    margin-top: -90px;
     border: none;
   }
   .header-top-sky .header-top.header-top-v3 {
