@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollToTop from "../ScrollToTop";
-import AboutUs from "./AboutUs";
+import AboutUs from "./about-us/AboutUs";
 import BlogSection from "./blog/BlogSection";
 import Cover from "./cover/Cover";
 import Footer from "./footer/Footer";

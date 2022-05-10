@@ -14920,6 +14920,7 @@ button.close {
   display: inline-flex;
   align-items: center;
   background: #bf9b79;
+  padding: 0 15px;
 }
 .section-slider .item .carousel-caption p .line-t,
 .section-slider .item .carousel-caption p .line-b {
@@ -16601,29 +16602,3 @@ a:focus {
 }
 
 /*# sourceMappingURL=styles.css.map */
-
-
-/* ABOUT US */
-
-#about-us {
-  padding: 100px 0;
-}
-
-/* BLOG */
-
-#blog {
-  padding: 40px 0;
-  background: #f2f2f2;
-}
-
-/* ICONS SECTION */
-
-#icon-section {
-  padding: 120px 0 40px ;
-}
-
-/* OUR SERVICES SECTION */
-#our-services {
-  padding: 40px 0;
-  background: #f2f2f2;
-}

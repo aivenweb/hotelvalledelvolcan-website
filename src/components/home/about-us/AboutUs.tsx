@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutUs.css";
 
 interface AboutUsProps {}
 
@@ -25,7 +26,7 @@ const AboutUs: React.FC<AboutUsProps> = () => {
                   words, consectetur, from a Lorem Ipsum passage ...
                 </p>
                 <a
-                  href="http://landing.engotheme.com/html/skyline/demo/index.html#"
+                  href=""
                   className="read-more"
                 >
                   READ MORE
@@ -36,24 +37,10 @@ const AboutUs: React.FC<AboutUsProps> = () => {
               <div className="about-img">
                 <div className="img-1">
                   <img
-                    src="https://dev.hotelvalledelvolcan.info/images/carousel/laguna-verde.jpg"
+                    src="/assets/images/about-us.jpg"
                     className="img-responsive"
                     alt=""
                   />
-                  <div className="img-2">
-                    <img
-                      src="https://dev.hotelvalledelvolcan.info/images/carousel/laguna-verde.jpg"
-                      className="img-responsive"
-                      alt=""
-                    />
-                  </div>
-                  <div className="img-3">
-                    <img
-                      src="https://dev.hotelvalledelvolcan.info/images/carousel/laguna-verde.jpg"
-                      className="img-responsive"
-                      alt=""
-                    />
-                  </div>
                 </div>
               </div>
             </div>
