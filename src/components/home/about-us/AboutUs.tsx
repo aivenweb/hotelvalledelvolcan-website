@@ -37,7 +37,7 @@ const AboutUs: React.FC<AboutUsProps> = () => {
               <div className="about-img">
                 <div className="img-1">
                   <img
-                    src="/assets/images/about-us.jpg"
+                    src="/assets/images/sobre-hotel-valle-del-volcan.jpg"
                     className="img-responsive"
                     alt=""
                   />
