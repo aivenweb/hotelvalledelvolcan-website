@@ -62,7 +62,6 @@
   align-items: center;
   background: #fff;
   box-shadow: 0 0 8px #0000001a;
-  height: 240px;
 }
 
 #our-services .service-text {
@@ -72,10 +71,25 @@
   padding: 15px;
 }
 
+#our-services .see-more-btn {
+  display: inline-block;
+  padding: 0 20px;
+  transition: all .5s;
+  font-size: 14px;
+  border: 1px solid #000;
+  border-radius: 50px;
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 #our-services .service-img {
   flex: 0 0 250px;
   max-width: 250px;
-  height: 240px;
+  height: 180px;
   position: relative;
   overflow: hidden;
 }
