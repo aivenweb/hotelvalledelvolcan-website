@@ -35,10 +35,17 @@
 #our-services .section-header .section-heading::after {
   content: "";
   display: block;
-  width: 80px;
-  height: 2px;
+  width: 250px;
+  height: 1px;
   background: #bf9b79;
   margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+#our-services .section-heading .section-title {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Playfaif Display", serif;
 }
 
 #our-services .section-heading .section-description p {

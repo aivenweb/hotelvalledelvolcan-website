@@ -28,7 +28,17 @@ const EntertainmentService: React.FC<EntertainmentServiceProps> = ({
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        Info de modal
+        <div className="close-modal_container">
+          <button onClick={toggleModal} className="close-modal-btn">X</button>
+        </div>
+        <p>
+          Club Hotel Valle Del Volcán ofrece en sus diferentes salas, conciertos
+          de guitarra y música en general, u otra opción pueden ser los juegos
+          como el bingo o de torneos de cartas, donde todos disfrutan de este
+          tipo de reuniones. También podes disfrutar de nuestra sala de usos
+          múltiples equipada con mesa de pool, ping pong, aparatos de gimnasia y
+          colchonetas.
+        </p>
       </Modal>
     </>
   );

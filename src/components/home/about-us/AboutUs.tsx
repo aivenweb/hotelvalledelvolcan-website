@@ -14,21 +14,18 @@ const AboutUs: React.FC<AboutUsProps> = () => {
                 <h2 className="about-title">Nosotros</h2>
                 <div className="line"></div>
                 <p className="about-p">
-                  Contrary to popular belief, Lorem isn’t simply random text. It
-                  has roots in a of classNameical Latin literature from 45 BC,
-                  making it over 2000 years old. Avalon’s leading hotels with
-                  gracious island hospitality, thoughtful amenities and
-                  distinctive
+                  Hotel valle del volcán es un establecimiento tres estrellas
+                  atendido por sus dueños, con un trato personalizado y cuidado
+                  hacia todos nuestros clientes. Nuestra política de venta Low
+                  Cost nos permite siempre brindar el precio más bajo del
+                  mercado, garantizando una relación precio-calidad excelente.
                 </p>
-                <p className="about-p1">
+                {/* <p className="about-p1">
                   Richard McClintock, a Latin professor at Hampden-Sydney
                   College in Virginia, looked up one of the more obscure Latin
                   words, consectetur, from a Lorem Ipsum passage ...
-                </p>
-                <a
-                  href=""
-                  className="read-more"
-                >
+                </p> */}
+                <a href="" className="read-more">
                   READ MORE
                 </a>
               </div>

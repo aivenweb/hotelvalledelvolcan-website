@@ -24,7 +24,16 @@ const RoomService: React.FC<RoomServiceProps> = ({ isOpen, toggleModal }) => {
         overlayClassName="myoverlay"
         closeTimeoutMS={400}
       >
-        Info de modal
+        <div className="close-modal_container">
+          <button onClick={toggleModal} className="close-modal-btn">X</button>
+        </div>
+        <p>
+          En Club Hotel Valle Del Volcán, las habitaciones están equipadas con
+          baño privado, televisión satelital en cada una , calefacción central y
+          WI-FI. También ofrecemos servicio de lavandería, servicio de caja
+          fuerte, restaurante y una estufa hogar para que puedas disfrutar de un
+          ambiente cálido y tranquilo.
+        </p>
       </Modal>
     </>
   );

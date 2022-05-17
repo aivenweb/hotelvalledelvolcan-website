@@ -28,7 +28,15 @@ const OutdoorService: React.FC<OutdoorServiceProps> = ({
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        Info de modal
+        <div className="close-modal_container">
+          <button onClick={toggleModal} className="close-modal-btn">X</button>
+        </div>
+        <p>
+          La naturaleza de Copahue ofrece paseos a caballo, senderismo, visitas
+          a cascadas, ascenso al volcán Copahue, avistaje de Laguna Las Mellizas
+          y muchísimas cosas más a parte de la bellisima actividad termal que es
+          el atractivo principal del lugar.
+        </p>
       </Modal>
     </>
   );

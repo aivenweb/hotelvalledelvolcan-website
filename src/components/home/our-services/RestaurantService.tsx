@@ -28,7 +28,16 @@ const RestaurantService: React.FC<RestaurantServiceProps> = ({
         overlayClassName="myoverlay"
         closeTimeoutMS={500}
       >
-        Info de modal
+        <div className="close-modal_container">
+          <button onClick={toggleModal} className="close-modal-btn">X</button>
+        </div>
+        <p>
+          En Club Hotel Valle Del Volcán las comidas se realizan de forma
+          casera, También contamos con un menú fijo y dietas especiales a pedido
+          de nuestros clientes. Ofrecemos desayuno continental con panes caseros
+          y mermeladas caseras, tostadas, jugo de naranjas, frutas, medialunas y
+          cafetería de primera calidad.
+        </p>
       </Modal>
     </>
   );

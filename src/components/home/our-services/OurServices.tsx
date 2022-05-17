@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./OurServices.css";
 import EntertainmentService from "./EntertainmentService";
 import OutdoorService from "./OutdoorService";
@@ -8,10 +8,23 @@ import RoomService from "./RoomService";
 interface OurServicesProps {}
 
 const OurServices: React.FC<OurServicesProps> = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [roomModalIsOpen, setRoomModalIsOpen] = useState(false);
+  const [entertainmentModalIsOpen, setEntertainmentModalIsOpen] =
+    useState(false);
+  const [outdoorModalIsOpen, setOutdoorModalIsOpen] = useState(false);
+  const [restauirantIsOpen, setRestaurantIsOpen] = useState(false);
 
-  function ToggleModal() {
-    setIsOpen(!isOpen);
+  function RoomToggleModal() {
+    setRoomModalIsOpen(!roomModalIsOpen);
+  }
+  function EntertainmentToggleModal() {
+    setEntertainmentModalIsOpen(!entertainmentModalIsOpen);
+  }
+  function OutdoorToggleModal() {
+    setOutdoorModalIsOpen(!outdoorModalIsOpen);
+  }
+  function RestaurantToggleModal() {
+    setRestaurantIsOpen(!restauirantIsOpen);
   }
 
   return (
@@ -21,7 +34,7 @@ const OurServices: React.FC<OurServicesProps> = () => {
           <div className="section-header">
             <div className="section-heading">
               <h3 className="section-title">Nuestros servicios</h3>
-              <div className="section-description">
+              {/* <div className="section-description">
                 <p>
                   Hotel valle del volcán es un establecimiento tres estrellas
                   atendido por sus dueños, con un trato personalizado y cuidado
@@ -29,15 +42,26 @@ const OurServices: React.FC<OurServicesProps> = () => {
                   Cost nos permite siempre brindar el precio más bajo del
                   mercado, garantizando una relación precio-calidad excelente.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="services-row">
-
-            <RoomService isOpen={isOpen} toggleModal={ToggleModal}/>
-            <EntertainmentService isOpen={isOpen} toggleModal={ToggleModal}/>
-            <OutdoorService isOpen={isOpen} toggleModal={ToggleModal}/>
-            <RestaurantService isOpen={isOpen} toggleModal={ToggleModal}/>
+            <RoomService
+              isOpen={roomModalIsOpen}
+              toggleModal={RoomToggleModal}
+            />
+            <EntertainmentService
+              isOpen={entertainmentModalIsOpen}
+              toggleModal={EntertainmentToggleModal}
+            />
+            <OutdoorService
+              isOpen={outdoorModalIsOpen}
+              toggleModal={OutdoorToggleModal}
+            />
+            <RestaurantService
+              isOpen={restauirantIsOpen}
+              toggleModal={RestaurantToggleModal}
+            />
           </div>
         </div>
       </section>
