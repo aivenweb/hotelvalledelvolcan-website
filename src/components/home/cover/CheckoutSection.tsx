@@ -8,7 +8,7 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
       <div className="check-avail check-avail-v3">
         <div className="container">
           <div className="arrival date-title">
-            <label>Arrival Date </label>
+            <label>Fecha de ingreso</label>
             <div
               id="datepicker"
               className="input-group date"
@@ -21,7 +21,7 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
             </div>
           </div>
           <div className="departure date-title">
-            <label>Departure Date </label>
+            <label>Fecha de salida</label>
             <div
               id="datepickeri"
               className="input-group date"
@@ -34,7 +34,7 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
             </div>
           </div>
           <div className="adults date-title">
-            <label>Adults</label>
+            <label>Adultos</label>
             <form>
               <div className="carousel-search">
                 <div className="btn-group">
@@ -47,16 +47,16 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a>1</a>
+                      1
                     </li>
                     <li>
-                      <a>2</a>
+                      2
                     </li>
                     <li>
-                      <a>3</a>
+                      3
                     </li>
                     <li>
-                      <a>4</a>
+                      4
                     </li>
                   </ul>
                 </div>
@@ -64,7 +64,7 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
             </form>
           </div>
           <div className="children date-title">
-            <label>Children</label>
+            <label>Niños</label>
             <form>
               <div className="carousel-search">
                 <div className="btn-group">
@@ -77,16 +77,19 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
                   </a>
                   <ul className="dropdown-menu">
                     <li>
-                      <a>1</a>
+                      0
                     </li>
                     <li>
-                      <a>2</a>
+                      1
                     </li>
                     <li>
-                      <a>3</a>
+                      2
                     </li>
                     <li>
-                      <a>4</a>
+                      3
+                    </li>
+                    <li>
+                      4
                     </li>
                   </ul>
                 </div>
@@ -95,9 +98,9 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
           </div>
           <div className="find_btn date-title">
             <div className="text-find">
-              Check
+              Confirmar
               <br />
-              Availability
+              Disponibilidad
             </div>
           </div>
         </div>

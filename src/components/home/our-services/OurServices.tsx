@@ -34,15 +34,6 @@ const OurServices: React.FC<OurServicesProps> = () => {
           <div className="section-header">
             <div className="section-heading">
               <h3 className="section-title">Nuestros servicios</h3>
-              {/* <div className="section-description">
-                <p>
-                  Hotel valle del volcán es un establecimiento tres estrellas
-                  atendido por sus dueños, con un trato personalizado y cuidado
-                  hacia todos nuestros clientes. Nuestra política de venta Low
-                  Cost nos permite siempre brindar el precio más bajo del
-                  mercado, garantizando una relación precio-calidad excelente.
-                </p>
-              </div> */}
             </div>
           </div>
           <div className="services-row">
