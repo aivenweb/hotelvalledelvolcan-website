@@ -15,7 +15,7 @@ const EntertainmentService: React.FC<EntertainmentServiceProps> = ({
     <>
       <ServicesCard
         title="Entretenimiento"
-        description="Descripción"
+        description="Hotel Valle del Volcán ofrece diversas actividades para su entretenimiento."
         image="/assets/images/entretenimiento-hotel-valle-del-volcan.jpg"
         imageDescription="ALT"
         toggleModal={toggleModal}

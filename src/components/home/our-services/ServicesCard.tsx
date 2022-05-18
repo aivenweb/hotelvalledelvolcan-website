@@ -5,7 +5,7 @@ interface ServicesCardProps {
   description: string;
   image: string;
   imageDescription: string;
-  toggleModal: any
+  toggleModal: any;
 }
 
 const ServicesCard: React.FC<ServicesCardProps> = ({
@@ -13,16 +13,20 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
   description,
   image,
   imageDescription,
-  toggleModal
+  toggleModal,
 }) => {
   return (
     <div className="col-lg-6 service-card">
       <div className="service-box">
         <div className="service-wrapper">
           <div className="service-text">
-            <h5>{title}</h5>
-            <p>{description}</p>
-            <button onClick={toggleModal} className="see-more-btn">Ver más</button>
+            <div>
+              <h4>{title}</h4>
+              <p>{description}</p>
+            </div>
+            <button onClick={toggleModal} className="see-more-btn">
+              Ver más
+            </button>
           </div>
           <div className="service-img">
             <img className="image-fit" src={image} alt={imageDescription} />

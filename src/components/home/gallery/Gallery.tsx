@@ -5,10 +5,10 @@ interface GalleryProps {}
 const Gallery: React.FC<GalleryProps> = () => {
   return (
     <div id="gallery">
-      <section className="gallery-our">
+      <section style={{ background: `url('${process.env.PUBLIC_URL}/assets/images/bg-gallery.jpg')`}} className="gallery-our">
         <div className="container-fluid">
           <div className="gallery">
-            <h2 className="title-gallery">Our Gallery</h2>
+            <h2 className="title-gallery">Nuestra galería</h2>
             <div className="outline"></div>
             <ul className="nav nav-tabs text-uppercase">
               <li className="active">

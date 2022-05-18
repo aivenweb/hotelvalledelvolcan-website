@@ -15,7 +15,7 @@ const OutdoorService: React.FC<OutdoorServiceProps> = ({
     <>
       <ServicesCard
         title="Actividades al aire libre"
-        description="Descripción"
+        description="Copahue les ofrece a todos los turistas diversas actividades al aire libre."
         image="/assets/images/actividades-hotel-valle-del-volcan.jpg"
         imageDescription="ALT"
         toggleModal={toggleModal}

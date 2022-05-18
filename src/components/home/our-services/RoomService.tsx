@@ -12,7 +12,7 @@ const RoomService: React.FC<RoomServiceProps> = ({ isOpen, toggleModal }) => {
     <>
       <ServicesCard
         title="Habitaciones"
-        description="Descripción"
+        description="Nuestras instalaciones están totalmente equipadas para garantizar su comodidad."
         image="/assets/images/habitacion-hotel-valle-del-volcan.jpg"
         imageDescription="ALT"
         toggleModal={toggleModal}
@@ -25,11 +25,13 @@ const RoomService: React.FC<RoomServiceProps> = ({ isOpen, toggleModal }) => {
         closeTimeoutMS={400}
       >
         <div className="close-modal_container">
-          <button onClick={toggleModal} className="close-modal-btn">X</button>
+          <button onClick={toggleModal} className="close-modal-btn">
+            X
+          </button>
         </div>
         <p>
           En Club Hotel Valle Del Volcán, las habitaciones están equipadas con
-          baño privado, televisión satelital en cada una , calefacción central y
+          baño privado, televisión satelital en cada una, calefacción central y
           WI-FI. También ofrecemos servicio de lavandería, servicio de caja
           fuerte, restaurante y una estufa hogar para que puedas disfrutar de un
           ambiente cálido y tranquilo.

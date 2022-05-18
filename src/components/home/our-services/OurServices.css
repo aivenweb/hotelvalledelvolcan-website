@@ -3,17 +3,21 @@
   background: #f2f2f2;
 }
 
-#our-services h5 {
+#our-services h4 {
   color: #bf9b79;
 }
 
-#our-services h5::after {
+#our-services h4::after {
   content: "";
   display: block;
   width: 80px;
   height: 2px;
   background: #bf9b79;
   margin-top: 10px;
+}
+
+#our-services p {
+  font-size: 15px;
 }
 
 #our-services .container {
@@ -69,6 +73,7 @@
 }
 
 #our-services .service-wrapper {
+  height: 200px;
   display: flex;
   align-items: center;
   background: #fff;
@@ -76,6 +81,9 @@
 }
 
 #our-services .service-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 0 0 calc(100% - 250px);
   max-width: calc(100% - 250px);
   width: 100%;
@@ -87,9 +95,9 @@
   padding: 0 20px;
   transition: all 0.5s;
   font-size: 14px;
-  border: 1px solid #000;
+  border: 1px solid #202020;
   border-radius: 50px;
-  background: #000;
+  background: #202020;
   color: #fff;
   overflow: hidden;
   z-index: 1;
@@ -97,10 +105,16 @@
   text-transform: uppercase;
 }
 
+#our-services .see-more-btn:hover {
+  border: 1px solid #000;
+  background: #000;
+
+}
+
 #our-services .service-img {
   flex: 0 0 250px;
   max-width: 250px;
-  height: 180px;
+  height: 200px;
   position: relative;
   overflow: hidden;
 }
@@ -120,12 +134,21 @@
 @media (max-width: 576px) {
   #our-services .service-wrapper {
     display: block;
+    height: auto;
+  }
+
+  #our-services .see-more-btn {
+    height: 30px;
   }
 
   #our-services .service-text,
   #our-services .service-img {
     flex: 0 0 calc(100% - 0px);
     max-width: calc(100% - 0px);
+  }
+
+  #our-services .service-img {
+    height: 300px;
   }
 }
 
@@ -140,9 +163,37 @@
     max-width: 720px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #our-services p {
+    font-size: 15px;
+  }
+
+  #our-services .see-more-btn {
+    width: 40%;
+    height: 30px;
+  }
+}
+
 @media (min-width: 992px) {
   #our-services .container {
     max-width: 960px;
+  }
+
+  #our-services .service-wrapper {
+    height: 220px;
+  }
+
+  #our-services .service-text {
+    height: 220px;
+  }
+
+  #our-services .see-more-btn {
+    height: 30px;
+  }
+
+  #our-services .service-img {
+    height: 220px;
   }
 
   #our-services .col-lg-6 {
@@ -155,8 +206,23 @@
   }
 }
 
+@media (min-width: 993px) and (max-width: 1200px) {
+  #our-services p {
+    font-size: 13px;
+  }
+}
+
 @media (min-width: 1200px) {
   #our-services .container {
     max-width: 100%;
+  }
+
+  #our-services .service-text {
+    height: 200px;
+  }
+
+  #our-services .see-more-btn {
+    width: 40%;
+    height: 30px;
   }
 }
