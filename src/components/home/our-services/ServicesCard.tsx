@@ -16,7 +16,7 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
   toggleModal
 }) => {
   return (
-    <div className="col-lg-6">
+    <div className="col-lg-6 service-card">
       <div className="service-box">
         <div className="service-wrapper">
           <div className="service-text">
