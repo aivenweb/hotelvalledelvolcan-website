@@ -8163,6 +8163,9 @@ button.close {
   float: left;
   color: white;
 }
+.header-sky .header-top .header-top-left .icon {
+  font-size: 20px;
+}
 .header-sky .header-top .header-top-left span {
   font-size: 12px;
   margin-right: 15px;
@@ -8173,7 +8176,13 @@ button.close {
   padding-right: 5px;
 }
 .header-sky .header-top .header-top-right {
-  float: right;
+  float: right; 
+  color: #fff;
+}
+
+.header-sky .header-top .header-top-right .info {
+  font-size: 13px;
+  margin-left: 20px;
 }
 
 @media all and (min-width: 1200px) {
@@ -8336,12 +8345,19 @@ button.close {
   color: #ffffff;
 }
 .header-sky .navbar .navbar-nav li {
-  padding: 35px 25px;
+  padding: 35px 20px;
+  width: 125px;
+  text-align: center;
 }
 .header-sky .navbar .navbar-nav li .caret {
   margin-left: 5px;
 }
 .header-sky .navbar .navbar-nav li:hover a {
+  background: transparent;
+  color: #bf9b79;
+  font-size: 15px;
+}
+.header-top-sky .navbar .navbar-nav li:hover a {
   background: transparent;
   color: #81251a;
 }
@@ -14536,6 +14552,22 @@ button.close {
   margin: -2px 0;
   background: #2e2e2e;
 }
+.footer-sky .footer-top .mail-icon svg path {
+  fill: #bf9b79;
+}
+.footer-sky .footer-top .icon-section a {
+  margin-left: 30px;
+  padding: 10px;
+  line-height: 64px;
+  font-size: 20px;
+  color: #fff;
+}
+.footer-sky .footer-top .fa-envelope{
+  font-size: 30px;
+  padding: 15px;
+  border: 2px solid #bf9b79;
+  border-radius: 50%;
+}
 .footer-sky .footer-top .textbox .form-inline {
   margin-top: 2px;
 }
@@ -14592,6 +14624,10 @@ button.close {
   position: absolute;
   right: 10px;
   z-index: 99;
+}
+.footer-sky .footer-top .textbox .form-inline .form-group .input-group .btn img {
+  border-left: 1px solid #4c4c4c;
+  padding-left: 25px;
 }
 .footer-sky
   .footer-top
