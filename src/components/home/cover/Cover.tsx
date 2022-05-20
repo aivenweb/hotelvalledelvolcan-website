@@ -1,5 +1,5 @@
 import React from "react";
-import CheckoutSection from "./CheckoutSection";
+import CheckAvailability from "../CheckAvailability";
 
 interface CoverProps {}
 
@@ -21,7 +21,7 @@ const Cover: React.FC<CoverProps> = () => {
             </p>
           </div>
         </div>
-        <CheckoutSection />
+        <CheckAvailability />
       </section>
     </div>
   );

@@ -1,8 +1,8 @@
 import React from "react";
 
-interface CheckoutSectionProps {}
+interface CheckAvailabilityProps {}
 
-const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
+const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
   return (
     <div id="checkout-section">
       <div className="check-avail check-avail-v3">
@@ -16,7 +16,7 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
             >
               <input className="form-control" type="text" />
               <span className="input-group-addon">
-                <img src="./Home 1_files/date-icon.png" alt="#" />
+                <img src="/assets/images/icons/calendario.png" alt="#" />
               </span>
             </div>
           </div>
@@ -29,7 +29,7 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
             >
               <input className="form-control" type="text" />
               <span className="input-group-addon">
-                <img src="./Home 1_files/date-icon.png" alt="#" />
+                <img src="/assets/images/icons/calendario.png" alt="#" />
               </span>
             </div>
           </div>
@@ -109,4 +109,4 @@ const CheckoutSection: React.FC<CheckoutSectionProps> = () => {
   );
 };
 
-export default CheckoutSection;
+export default CheckAvailability;
