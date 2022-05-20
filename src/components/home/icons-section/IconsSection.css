@@ -1,3 +1,8 @@
 #icon-section {
   padding: 120px 0 40px;
 }
+
+#icon-section .row {
+  display: flex;
+  flex-wrap: wrap;
+}

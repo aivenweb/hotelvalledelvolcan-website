@@ -15,7 +15,7 @@ const RestaurantService: React.FC<RestaurantServiceProps> = ({
     <>
       <ServicesCard
         title="Restaurante"
-        description="En Hotel del Valle Volcán nos aseguramos de cumplir con los gustos y necesidades de cada huésped."
+        description="En Hotel Valle del Volcán nos aseguramos de cumplir con los gustos y necesidades de cada huésped."
         image="/assets/images/comedor-hotel-valle-del-volcan.jpeg"
         imageDescription="ALT"
         toggleModal={toggleModal}

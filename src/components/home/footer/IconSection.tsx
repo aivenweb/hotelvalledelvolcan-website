@@ -37,12 +37,6 @@ const IconSection: React.FC<IconsSectionProps> = () => {
       >
         <FontAwesomeIcon icon={faWhatsapp} />
       </a>
-      <a
-        href="https://ar.pinterest.com/copahueclub/"
-        title="Pinterest"
-      >
-        <FontAwesomeIcon icon={faPinterest} />
-      </a>
     </div>
   );
 };
