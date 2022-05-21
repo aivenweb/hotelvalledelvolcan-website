@@ -8354,7 +8354,7 @@ button.close {
 .header-sky .navbar .navbar-nav li:hover a {
   background: transparent;
   color: #bf9b79;
-  font-size: 15px;
+  font-size: 17px;
 }
 .header-top-sky .navbar .navbar-nav li:hover a {
   background: transparent;
@@ -8362,7 +8362,7 @@ button.close {
 }
 .header-sky .navbar .navbar-nav li a {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   font-family: "Poppins", sans-serif;
   padding: 0px;
@@ -9121,7 +9121,7 @@ button.close {
 }
 .about .about-p {
   color: #333;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   margin-top: 0px;
   padding-right: 50px;
@@ -15116,7 +15116,7 @@ a:focus {
     padding: 35px 18px;
   }
   .header-sky .navbar .navbar-nav li a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .header-sky .navbar .navbar-nav li .dropdown-menu {
     min-width: 160px;
@@ -15234,7 +15234,7 @@ a:focus {
     left: 27%;
     width: 50%;
   }
-  .about .about-centent p {
+  .about .about-content p {
     padding: 0;
   }
 
@@ -15504,9 +15504,12 @@ a:focus {
     left: 27%;
     width: 50%;
   }
-  .about .about-centent p {
+  .about .about-content p {
     padding: 0;
     text-align: justify;
+  }
+  .about .about-content .about-p {
+    font-size: 16px;
   }
 
   /* END / ABOUT */
@@ -15522,7 +15525,7 @@ a:focus {
     padding: 30px 10px;
   }
   .header-sky .navbar .navbar-nav li a {
-    font-size: 10px;
+    font-size: 14px;
   }
   .header-sky .navbar .navbar-nav li a .caret {
     border-top: 3px dashed;
@@ -15762,17 +15765,17 @@ a:focus {
   .about .about-img .img-1 .img-3 {
     display: none;
   }
-  .about .about-centent {
+  .about .about-content {
     text-align: center;
   }
-  .about .about-centent .line {
+  .about .about-content .line {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
   }
-  .about .about-centent p {
+  .about .about-content p {
     padding: 0;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 30px;
   }
 
@@ -16378,7 +16381,7 @@ a:focus {
     margin-top: 8px;
   }
   .header-sky .navbar .navbar-nav li a {
-    font-size: 12px;
+    font-size: 14px;
   }
   .header-sky .navbar .navbar-nav li .dropdown-menu {
     min-width: 160px;
