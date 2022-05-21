@@ -51,32 +51,12 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
               </li>
               <li className="dropdown ">
                 <a
-                  href="http://landing.engotheme.com/html/skyline/demo/index.html#"
-                  title="  Page"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                >
-                  Servicios
-                </a>
-              </li>
-              <li className="dropdown ">
-                <a
                   href="http://landing.engotheme.com/html/skyline/demo/reservation_1.html"
                   title="Reservation"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
                 >
                   Nosotros
-                </a>
-              </li>
-              <li className="dropdown ">
-                <a
-                  href="http://landing.engotheme.com/html/skyline/demo/gallery_1.html"
-                  title="Gallery"
-                  className="dropdown-toggle"
-                  data-toggle="dropdown"
-                >
-                  Galería 
                 </a>
               </li>
               <li>
