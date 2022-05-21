@@ -5,7 +5,7 @@ interface CheckAvailabilityProps {}
 const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
   return (
     <div id="checkout-section">
-      <div className="check-avail check-avail-v3">
+      <div className="check-avail">
         <div className="container">
           <div className="arrival date-title">
             <label>Fecha de ingreso</label>

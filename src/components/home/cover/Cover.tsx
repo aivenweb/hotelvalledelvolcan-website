@@ -1,5 +1,6 @@
 import React from "react";
-import CheckAvailability from "../CheckAvailability";
+import CheckAvailability from "../../CheckAvailability";
+import CarouselComponent from "./CarouselComponent";
 
 interface CoverProps {}
 
@@ -7,7 +8,8 @@ const Cover: React.FC<CoverProps> = () => {
   return (
     <div id="cover">
       <section className="section-slider height-v">
-        <div className="item">
+        <CarouselComponent/>
+        {/* <div className="item">
           <img
             alt="Third slide"
             src="/assets/images/portada-hotel-valle-del-volcan.jpg"
@@ -20,7 +22,7 @@ const Cover: React.FC<CoverProps> = () => {
               <span className="line-b"></span> 
             </p>
           </div>
-        </div>
+        </div> */}
         <CheckAvailability />
       </section>
     </div>
