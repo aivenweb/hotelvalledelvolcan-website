@@ -1,0 +1,4 @@
+#gallery .tab-content .row {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -8239,11 +8239,11 @@ button.close {
   text-transform: uppercase;
 }
 .header-sky .header-top .header-top-right .dropdown-menu li a:hover {
-  background: #81251a;
+  background: #9e4928;
   color: #fff !important;
 }
 .header-sky .header-top .header-top-right .dropdown-menu .active a {
-  background: #81251a;
+  background: #9e4928;
   color: #fff !important;
 }
 .header-sky .header-top .header-top-right ul {
@@ -8338,7 +8338,7 @@ button.close {
   .dropdown-margin
   li
   a:hover {
-  color: #81251a;
+  color: #9e4928;
 }
 .header-sky .navbar .navbar-nav .active a {
   background: red;
@@ -8358,7 +8358,7 @@ button.close {
 }
 .header-top-sky .navbar .navbar-nav li:hover a {
   background: transparent;
-  color: #81251a;
+  color: #9e4928;
 }
 .header-sky .navbar .navbar-nav li a {
   font-weight: 600;
@@ -8371,7 +8371,7 @@ button.close {
 }
 @media (max-width: 767px) {
   .header-sky .navbar .navbar-nav li a:hover {
-    color: #81251a;
+    color: #9e4928;
   }
   .header-sky #header-top {
     display: none;
@@ -8394,11 +8394,11 @@ button.close {
 .header-sky .navbar .navbar-nav li .dropdown-menu li:hover a,
 .header-sky .navbar .navbar-nav li .dropdown-menu li:focus a {
   background: transparent;
-  color: #81251a;
+  color: #9e4928;
 }
 .header-sky .navbar .navbar-nav li .dropdown-menu li:hover a .caret,
 .header-sky .navbar .navbar-nav li .dropdown-menu li:focus a .caret {
-  color: #81251a;
+  color: #9e4928;
 }
 .header-sky .navbar .navbar-nav li .dropdown-menu li a {
   padding: 0px !important;
@@ -8475,7 +8475,7 @@ button.close {
     .dropdown-margin
     li
     a:hover {
-    color: #81251a;
+    color: #9e4928;
   }
   .header-sky .navbar .navbar-nav .submenu-hover1 .dropdown-margin {
     visibility: hidden;
@@ -8591,7 +8591,7 @@ button.close {
 .gallery-our.wrap-gallery-restaurant .gallery-restaurant ul li.active > a {
   border: 1px solid transparent;
   color: #fff;
-  background: #81251a;
+  background: #9e4928;
 }
 .gallery-our.wrap-gallery-restaurant .gallery-restaurant ul li.active > a:hover,
 .gallery-our.wrap-gallery-restaurant
@@ -8600,7 +8600,7 @@ button.close {
   li.active
   > a:focus {
   color: #fff;
-  background-color: #81251a;
+  background-color: #9e4928;
   border: 1px solid transparent;
   cursor: pointer;
 }
