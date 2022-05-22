@@ -17,7 +17,6 @@ const ImageComponent: React.FC<ImageComponentProps> = ({
             src={image}
             className="img-responsive"
             alt={imageDescription}
-            title="images products"
           />
         </div>
         {/* <div className="gallery-box-main">
