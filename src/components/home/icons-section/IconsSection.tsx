@@ -46,8 +46,8 @@ const IconsSection: React.FC<IconsSectionProps> = () => {
               imageDescription="alt"
             />
             <Icon
-              title="WI-FI"
-              image="/assets/images/icons/wifi-hotel-valle-del-volcan.png"
+              title="Caja fuerte"
+              image="/assets/images/icons/caja-fuerte-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
           </div>

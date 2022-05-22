@@ -33,7 +33,7 @@ const OurServices: React.FC<OurServicesProps> = () => {
         <div className="container">
           <div className="section-header">
             <div className="section-heading">
-              <h3 className="section-title">Nuestros servicios</h3>
+              <h2 className="section-title">Nuestros servicios</h2>
             </div>
           </div>
           <div className="services-row">

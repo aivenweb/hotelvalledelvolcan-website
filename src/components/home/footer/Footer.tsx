@@ -31,7 +31,7 @@ const Footer: React.FC<FooterProps> = () => {
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div className="footer-logo text-center list-content">
                   <a
-                    href="http://landing.engotheme.com/html/skyline/demo/index.html"
+                    href="/index.html"
                     title="Skyline"
                   >
                     <img src="./Home 1_files/sky-logo-footer.png" alt="" />
@@ -43,10 +43,10 @@ const Footer: React.FC<FooterProps> = () => {
                   <ul>
                     <li>
                       <a
-                        href="http://landing.engotheme.com/html/skyline/demo/attractions.html"
+                        href="/#about-us"
                         title=""
                       >
-                        Site Map
+                        Sobre Nosotros
                       </a>
                     </li>
                     <li>
