@@ -24,9 +24,6 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
               <h4>{title}</h4>
               <p>{description}</p>
             </div>
-            <button onClick={toggleModal} className="see-more-btn">
-              Ver más
-            </button>
           </div>
           <div className="service-img">
             <img className="image-fit" src={image} alt={imageDescription} />

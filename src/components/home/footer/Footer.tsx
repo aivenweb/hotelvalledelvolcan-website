@@ -13,14 +13,14 @@ const Footer: React.FC<FooterProps> = () => {
         <div className="footer-top">
           <div className="container">
             <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-1 col-lg-1 mail-icon">
-              <FontAwesomeIcon icon={faEnvelope} />
+              <div className="col-xs-2 col-sm-3 col-md-1 col-lg-1 mail-icon">
+                <FontAwesomeIcon icon={faEnvelope} />
               </div>
-              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-5">
-                <EmailInput/>
+              <div className="col-xs-10 col-sm-9 col-md-7 col-lg-5">
+                <EmailInput />
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-6 text-right icon-section">
-                <IconSection/>
+                <IconSection />
               </div>
             </div>
           </div>
@@ -30,10 +30,7 @@ const Footer: React.FC<FooterProps> = () => {
             <div className="row padding-footer-mid">
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div className="footer-logo text-center list-content">
-                  <a
-                    href="/index.html"
-                    title="Skyline"
-                  >
+                  <a href="/index.html" title="Skyline">
                     <img src="./Home 1_files/sky-logo-footer.png" alt="" />
                   </a>
                 </div>
@@ -42,18 +39,12 @@ const Footer: React.FC<FooterProps> = () => {
                 <div className="list-content">
                   <ul>
                     <li>
-                      <a
-                        href="/#about-us"
-                        title=""
-                      >
+                      <a href="/#about-us" title="">
                         Sobre Nosotros
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="/#rooms"
-                        title=""
-                      >
+                      <a href="/#rooms" title="">
                         Precios
                       </a>
                     </li>
@@ -73,6 +64,12 @@ const Footer: React.FC<FooterProps> = () => {
                         Blog
                       </a>
                     </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
+                <div className="list-content">
+                  <ul>
                     <li>
                       <a
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
@@ -81,12 +78,6 @@ const Footer: React.FC<FooterProps> = () => {
                         Contacto
                       </a>
                     </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
-                <div className="list-content">
-                  <ul>
                     <li>
                       <a
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
@@ -95,30 +86,6 @@ const Footer: React.FC<FooterProps> = () => {
                         Ubicación
                       </a>
                     </li>
-                    <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
-                        title=""
-                      >
-                        Career
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/about.html"
-                        title=""
-                      >
-                        About Us
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/contact.html"
-                        title=""
-                      >
-                        Contact Us
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </div>
@@ -130,39 +97,15 @@ const Footer: React.FC<FooterProps> = () => {
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                         title=""
                       >
-                        FAQS
+                        Herrero Ducloux 120, Copahue Q8348AGA Argentina
                       </a>
                     </li>
                     <li>
                       <a
-                        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
+                        href="https://api.whatsapp.com/send?phone=5491122578646"
                         title=""
                       >
-                        News
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/gallery_1.html"
-                        title=""
-                      >
-                        Photo &amp; Video
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/restaurant_1.html"
-                        title=""
-                      >
-                        Restaurant
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
-                        title=""
-                      >
-                        Gift Card
+                        +54 9 2942 66-9435
                       </a>
                     </li>
                   </ul>
@@ -171,14 +114,14 @@ const Footer: React.FC<FooterProps> = () => {
             </div>
             <div className="footer-bottom">
               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
-                Copyright © 2017 by
+                Copyright © 2022 by
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   title=""
                 >
-                  EngoTheme.
+                  Nicole Tevez.
                 </a>
-                SkyLine Hotel Theme crafted with love
+                Hotel Valle del Volcán
               </div>
               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
                 <div className="payments text-right">

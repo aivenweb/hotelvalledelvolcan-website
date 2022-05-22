@@ -41,7 +41,7 @@ const IconsSection: React.FC<IconsSectionProps> = () => {
               imageDescription="alt"
             />
             <Icon
-              title="Yoga"
+              title="Gimnasia"
               image="/assets/images/icons/yoga-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />

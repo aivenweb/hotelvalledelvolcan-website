@@ -54,6 +54,9 @@ const OurServices: React.FC<OurServicesProps> = () => {
               toggleModal={RestaurantToggleModal}
             />
           </div>
+          <div className="text-center">
+            <button className="view-more-btn">Ver más</button>
+          </div>
         </div>
       </section>
     </div>

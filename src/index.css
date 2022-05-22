@@ -6325,7 +6325,6 @@ a.thumbnail.active {
 #rooms .wrap-rooms .wrap-box .rooms-content {
   padding: 15px 15px 25px;
   text-align: center;
-  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -6333,7 +6332,7 @@ a.thumbnail.active {
   min-height: 150px;
 }
 #rooms .wrap-rooms .wrap-box .rooms-content .price {
-  color: #bf9b79;
+  color: #9e4928;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -14839,7 +14838,7 @@ button.close {
   margin-right: 0px;
 }
 .section-slider .check-avail .date-title label {
-  color: #bf9b79;
+  color: #9e4928;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
