@@ -39,13 +39,11 @@ const CarouselComponent: React.FC<CarouselComponentProps> = () => {
             className="img-responsive"
             alt=""
           />
-          {/* <div className="carousel-caption-2">
-            <h2>
-              Tenemos más de 25 años de experiencia en el rubro hotelero,{" "}
-              <br></br>
-              brindando servicio y calidad a nuestros clientes.
+          <div className="carousel-caption-2">
+            <h2 className="hero-title-2">
+            Disfruta de la naturaleza unica de Copahue!
             </h2>
-          </div> */}
+          </div>
         </div>
       </Carousel>
     </div>

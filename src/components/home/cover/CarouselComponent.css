@@ -37,10 +37,20 @@
 }
 
 #main-carousel .item .carousel-caption-2 {
-  top: 40vh;
-  left: 75%;
-  width: 40vw;
-  padding: 10px;
+  top: 38vh;
+    left: 75%;
+    width: 40vw;
+    padding: 30px;
+    height: 280px;
+}
+
+#main-carousel .hero-title-2 {
+  font-size: 70px;
+  color: white;
+  margin-top: 0px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 3px 4px 2px rgb(0 0 0 / 50%);
 }
 
 .section-slider .item .carousel-caption p .line-t,
