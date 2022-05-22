@@ -51,10 +51,10 @@ const Footer: React.FC<FooterProps> = () => {
                     </li>
                     <li>
                       <a
-                        href="http://landing.engotheme.com/html/skyline/demo/tems_condition_1.html"
+                        href="/#rooms"
                         title=""
                       >
-                        Term &amp; Conditions
+                        Precios
                       </a>
                     </li>
                     <li>
@@ -62,7 +62,7 @@ const Footer: React.FC<FooterProps> = () => {
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                         title=""
                       >
-                        Privacy Policy
+                        Reservas
                       </a>
                     </li>
                     <li>
@@ -70,7 +70,7 @@ const Footer: React.FC<FooterProps> = () => {
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                         title=""
                       >
-                        Help
+                        Blog
                       </a>
                     </li>
                     <li>
@@ -78,7 +78,7 @@ const Footer: React.FC<FooterProps> = () => {
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                         title=""
                       >
-                        Affiliate
+                        Contacto
                       </a>
                     </li>
                   </ul>
@@ -92,7 +92,7 @@ const Footer: React.FC<FooterProps> = () => {
                         href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                         title=""
                       >
-                        Our Location
+                        Ubicación
                       </a>
                     </li>
                     <li>

@@ -21,7 +21,7 @@ const RoomCard: React.FC<RoomCardProps> = ({
         </div>
         <div className="rooms-content">
           <h4 className="sky-h4">{title}</h4>
-          <p className="price">${price} / Per Night</p>
+          <p className="price">${price} / noche</p>
         </div>
       </div>
     </div>

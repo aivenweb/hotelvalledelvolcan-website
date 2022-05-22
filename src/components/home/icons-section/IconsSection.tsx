@@ -16,6 +16,11 @@ const IconsSection: React.FC<IconsSectionProps> = () => {
               imageDescription="alt"
             />
             <Icon
+              title="Tv satelital"
+              image="/assets/images/icons/tv-satelital-hotel-valle-del-volcan.png"
+              imageDescription="alt"
+            />
+            <Icon
               title="Comodidad"
               image="/assets/images/icons/comodidad-hotel-valle-del-volcan.png"
               imageDescription="alt"
@@ -31,18 +36,13 @@ const IconsSection: React.FC<IconsSectionProps> = () => {
               imageDescription="alt"
             />
             <Icon
-              title="Ping pong"
-              image="/assets/images/icons/ping-pong-hotel-valle-del-volcan.png"
-              imageDescription="alt"
-            />
-            <Icon
               title="Pool"
               image="/assets/images/icons/pool-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
             <Icon
-              title="Gimnasio"
-              image="/assets/images/icons/gimnasio-hotel-valle-del-volcan.png"
+              title="Yoga"
+              image="/assets/images/icons/yoga-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
             <Icon
