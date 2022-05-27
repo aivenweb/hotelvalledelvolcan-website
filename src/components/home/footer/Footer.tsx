@@ -123,7 +123,7 @@ const Footer: React.FC<FooterProps> = () => {
                 </a>
                 Hotel Valle del Volcán
               </div>
-              <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
+              {/* <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
                 <div className="payments text-right">
                   <ul>
                     <li>
@@ -163,7 +163,7 @@ const Footer: React.FC<FooterProps> = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
