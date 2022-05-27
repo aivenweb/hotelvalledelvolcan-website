@@ -40,7 +40,7 @@ const CarouselComponent: React.FC<CarouselComponentProps> = () => {
             alt=""
           />
           <div className="carousel-caption-2">
-            <h2 className="hero-title-2">
+            <h2>
             Disfruta de la naturaleza unica de Copahue!
             </h2>
           </div>

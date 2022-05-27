@@ -14826,9 +14826,9 @@ button.close {
   position: initial;
   padding: 50px 0;
 }
-.section-slider .check-avail.check-avail-v3 .date-title {
+.section-slider .check-avail .date-title {
   border: 1px solid #ebebeb;
-  box-shadow: 1px 2px 3px #00000017;
+  box-shadow: 1px 2px 3px #00000030;
 }
 .section-slider .check-avail .date-title {
   height: 130px;
@@ -14847,6 +14847,8 @@ button.close {
 .section-slider .check-avail .container {
   display: flex;
   flex-direction: row;
+  background: #fff;
+  padding: 10px;
 }
 .section-slider .check-avail .container .arrival,
 .section-slider .check-avail .container .departure {
@@ -15781,7 +15783,7 @@ a:focus {
     padding: 25px 0px;
   }
   .footer-sky .footer-top .textbox .form-inline .form-group .input-group {
-    width: 450px;
+    width: 350px;
     margin: 0 auto;
   }
   .footer-sky .footer-top .icon-email img {
@@ -16547,7 +16549,7 @@ a:focus {
     margin-bottom: 0px;
   }
   .section-slider .item .carousel-caption p {
-    font-size: 14px !important;
+    font-size: 16px !important;
     letter-spacing: 2px;
   }
   .section-slider .item .carousel-caption p .line-t {

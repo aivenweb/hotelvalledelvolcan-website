@@ -16,7 +16,7 @@ const Footer: React.FC<FooterProps> = () => {
               <div className="col-xs-2 col-sm-3 col-md-1 col-lg-1 mail-icon">
                 <FontAwesomeIcon icon={faEnvelope} />
               </div>
-              <div className="col-xs-10 col-sm-9 col-md-7 col-lg-5">
+              <div className="col-xs-10 col-sm-9 col-md-7 col-lg-5 email-input">
                 <EmailInput />
               </div>
               <div className="col-xs-12 col-sm-12 col-md-4 col-lg-6 text-right icon-section">
