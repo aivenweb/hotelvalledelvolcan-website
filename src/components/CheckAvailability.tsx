@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 
 interface CheckAvailabilityProps {}
 
 const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
+
+  useLayoutEffect(() => {
+    $('#datepicker').datepicker();
+    $('#datepickeri').datepicker();
+  }, [])
+
   return (
     <div id="checkout-section">
       <div className="check-avail">

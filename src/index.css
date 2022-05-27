@@ -13548,7 +13548,7 @@ button.close {
 .table-condensed thead tr .prev,
 .table-condensed thead tr .datepicker-switch,
 .table-condensed thead tr .next {
-  background: #8f7037 !important;
+  background: #bf9b79 !important;
   -webkit-border-radius: 0;
   border-radius: 0;
   color: #fff;
@@ -13556,7 +13556,7 @@ button.close {
 }
 .table-condensed thead tr .prev,
 .table-condensed thead tr .next {
-  font-size: 0;
+  font-size: 15px;
 }
 .table-condensed thead tr .datepicker-switch {
   text-transform: uppercase;
@@ -13564,22 +13564,9 @@ button.close {
   font-weight: 600;
   vertical-align: middle;
 }
-.table-condensed thead tr .prev:before {
-  content: "\f3d5";
-  display: inline-block;
-  font-family: Ionicons;
-  font-size: 20px;
-  vertical-align: middle;
-}
-.table-condensed thead tr .next:before {
-  content: "\f3d6";
-  display: inline-block;
-  font-family: Ionicons;
-  font-size: 20px;
-  vertical-align: middle;
-}
+
 .table-condensed thead tr .dow {
-  background: #977a42;
+  background: #bf9b79;
   -webkit-border-radius: 0;
   border-radius: 0;
   color: #fff;
@@ -14847,7 +14834,7 @@ button.close {
 .section-slider .check-avail .container {
   display: flex;
   flex-direction: row;
-  background: #fff;
+  background: #ffffa6;
   padding: 10px;
 }
 .section-slider .check-avail .container .arrival,
