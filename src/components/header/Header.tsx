@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = () => {
 
   const handleScroll = () => {
     const position = window.pageYOffset;
-    if (position < 2) {
+    if (position < 5) {
       setScrollOnTop(true)
     } else setScrollOnTop(false);
   };
