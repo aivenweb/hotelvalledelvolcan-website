@@ -1,6 +1,5 @@
 import React from "react";
 import BannerComponent from "../BannerComponent";
-import Header from "../header/Header";
 import ServiceComponentLeft from "./ServiceComponentLeft";
 import ServiceComponentRight from "./ServiceComponentRight";
 
@@ -11,7 +10,6 @@ const HotelServicesPageComponent: React.FC<
 > = () => {
   return (
     <>
-      <Header />
       <BannerComponent
         title="Nuestros servicios"
       />
