@@ -11,10 +11,10 @@ const ServiceComponentRight: React.FC<ServiceComponentRightProps> = ({
   mainImage,
   secondaryImage,
   serviceTitle,
-  serviceDescription
+  serviceDescription,
 }) => {
   return (
-    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+    <div className="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 service-component">
       <div className="wrap-item">
         <div className="img">
           <img className="img-responsive" src={mainImage} alt="" />
@@ -25,10 +25,7 @@ const ServiceComponentRight: React.FC<ServiceComponentRightProps> = ({
           </div>
           <div className="text">
             <h2>{serviceTitle}</h2>
-            <p>
-              {serviceDescription}
-            </p>
-            <div className="line"></div>
+            <p>{serviceDescription}</p>
           </div>
         </div>
       </div>

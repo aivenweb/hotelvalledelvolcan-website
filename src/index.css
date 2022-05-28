@@ -9506,12 +9506,13 @@ button.close {
 }
 
 .banner-tems .banner-content h2 {
-  font-size: 36px;
+  font-size: 45px;
   font-weight: 700;
   color: white;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
+  text-shadow: 3px 4px 2px rgb(0 0 0 / 55%);
 }
 .banner-tems .banner-content p {
   font-size: 16px;
@@ -9924,7 +9925,7 @@ button.close {
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text {
   overflow: hidden;
-  padding: 8px 20px 0 27px;
+  padding: 8px 20px 40px 27px;
   background-color: #fff;
   position: relative;
   -webkit-transform: translateY(-60px);
@@ -9933,12 +9934,13 @@ button.close {
   -o-transform: translateY(-60px);
   width: 530px;
   float: left;
+  box-shadow: 1px 2px 3px #00000030;
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text .line {
   width: 70px;
   margin-top: 80px;
   height: 2px;
-  background: #333;
+  background: #bf9b79;
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text .view-dateails {
   margin-top: 25px;
@@ -9952,6 +9954,16 @@ button.close {
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text h2 {
   font-size: 36px;
+  color: #bf9b79;
+}
+.body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text h2:after {
+  content: "";
+  display: block;
+  width: 250px;
+  height: 1px;
+  background: #bf9b79;
+  margin-top: 20px;
+  margin-bottom: 45px;
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text h2:hover {
   color: #bf9b79;
@@ -9962,8 +9974,8 @@ button.close {
   margin-bottom: 33px;
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text p {
-  color: #898989;
-  font-size: 15px;
+  color: #393535;
+  font-size: 18px;
   font-weight: 400;
 }
 .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text p b {
@@ -15323,6 +15335,9 @@ a:focus {
     margin-left: 25px;
     margin-top: 10px;
   }
+  .body-room-3 .wrap-room-3 .service-component {
+    margin-top: 30px;
+  }
   .body-room-3 .wrap-room-3 .wrap-item .text-room-3 {
     margin-left: 50px;
     margin-right: 50px;
@@ -16360,7 +16375,7 @@ a:focus {
     font-size: 14px;
   }
   .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text p {
-    font-size: 14px;
+    font-size: 15px;
   }
   .body-room-3 .wrap-room-3 .wrap-item .text-room-3 .text .line {
     display: none;
@@ -16592,7 +16607,7 @@ a:focus {
     padding-top: 125px;
   }
   .banner-tems .banner-content h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
     margin-bottom: 5px;
   }

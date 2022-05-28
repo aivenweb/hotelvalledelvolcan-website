@@ -5,7 +5,6 @@ interface ServicesCardProps {
   description: string;
   image: string;
   imageDescription: string;
-  toggleModal: any;
 }
 
 const ServicesCard: React.FC<ServicesCardProps> = ({
@@ -13,7 +12,6 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
   description,
   image,
   imageDescription,
-  toggleModal,
 }) => {
   return (
     <div className="col-lg-6 service-card">

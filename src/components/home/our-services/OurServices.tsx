@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
 import "./OurServices.css";
 import EntertainmentService from "./EntertainmentService";
@@ -11,25 +11,6 @@ interface OurServicesProps {}
 const OurServices: React.FC<OurServicesProps> = () => {
   const history = useHistory();
 
-  const [roomModalIsOpen, setRoomModalIsOpen] = useState(false);
-  const [entertainmentModalIsOpen, setEntertainmentModalIsOpen] =
-    useState(false);
-  const [outdoorModalIsOpen, setOutdoorModalIsOpen] = useState(false);
-  const [restauirantIsOpen, setRestaurantIsOpen] = useState(false);
-
-  function RoomToggleModal() {
-    setRoomModalIsOpen(!roomModalIsOpen);
-  }
-  function EntertainmentToggleModal() {
-    setEntertainmentModalIsOpen(!entertainmentModalIsOpen);
-  }
-  function OutdoorToggleModal() {
-    setOutdoorModalIsOpen(!outdoorModalIsOpen);
-  }
-  function RestaurantToggleModal() {
-    setRestaurantIsOpen(!restauirantIsOpen);
-  }
-
   return (
     <div id="our-services">
       <section className="section-our-services">
@@ -40,22 +21,10 @@ const OurServices: React.FC<OurServicesProps> = () => {
             </div>
           </div>
           <div className="services-row">
-            <RoomService
-              isOpen={roomModalIsOpen}
-              toggleModal={RoomToggleModal}
-            />
-            <EntertainmentService
-              isOpen={entertainmentModalIsOpen}
-              toggleModal={EntertainmentToggleModal}
-            />
-            <OutdoorService
-              isOpen={outdoorModalIsOpen}
-              toggleModal={OutdoorToggleModal}
-            />
-            <RestaurantService
-              isOpen={restauirantIsOpen}
-              toggleModal={RestaurantToggleModal}
-            />
+            <RoomService/>
+            <EntertainmentService/>
+            <OutdoorService/>
+            <RestaurantService/>
           </div>
           <div onClick={() => history.push('/nuestros-servicios')} className="text-center">
             <button className="view-more-btn">Ver más</button>

@@ -2,10 +2,9 @@ import React from "react";
 
 interface BannerComponentProps {
   title: string;
-  description: string;
 }
 
-const BannerComponent: React.FC<BannerComponentProps> = ({ title, description }) => {
+const BannerComponent: React.FC<BannerComponentProps> = ({ title }) => {
   return (
     <section
       style={{
@@ -16,7 +15,6 @@ const BannerComponent: React.FC<BannerComponentProps> = ({ title, description })
       <div className="container">
         <div className="banner-content">
           <h2>{title}</h2>
-          <p>{description}</p>
         </div>
       </div>
     </section>
