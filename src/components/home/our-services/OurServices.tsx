@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import "./OurServices.css";
 import EntertainmentService from "./EntertainmentService";
 import OutdoorService from "./OutdoorService";
@@ -8,6 +9,8 @@ import RoomService from "./RoomService";
 interface OurServicesProps {}
 
 const OurServices: React.FC<OurServicesProps> = () => {
+  const history = useHistory();
+
   const [roomModalIsOpen, setRoomModalIsOpen] = useState(false);
   const [entertainmentModalIsOpen, setEntertainmentModalIsOpen] =
     useState(false);
@@ -54,7 +57,7 @@ const OurServices: React.FC<OurServicesProps> = () => {
               toggleModal={RestaurantToggleModal}
             />
           </div>
-          <div className="text-center">
+          <div onClick={() => history.push('/nuestros-servicios')} className="text-center">
             <button className="view-more-btn">Ver más</button>
           </div>
         </div>
