@@ -7,7 +7,7 @@ const ReservationRoomsInputComponent: React.FC<
 > = () => {
   return (
     <div className="check_availability-field">
-      <label>ROOMS</label>
+      <label>Cantidad de habitaciones</label>
       <select className="awe-select bs-select-hidden">
         <option>1</option>
         <option>2</option>

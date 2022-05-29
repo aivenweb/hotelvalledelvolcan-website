@@ -10905,8 +10905,10 @@ button.close {
   .check_availability
   .check_availability_title {
   margin-top: 25px;
+  margin-bottom: 20px;
   font-size: 14px;
   text-transform: uppercase;
+  text-decoration: underline;
   font-weight: bold;
   color: #bf9b79;
 }
@@ -11155,6 +11157,8 @@ button.close {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 .sidebar .widget.widget_check_availability .check_availability .btn-room:hover {
   border: 2px solid #bf9b79;

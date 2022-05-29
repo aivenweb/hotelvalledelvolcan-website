@@ -8,6 +8,8 @@ const ReservationCalendar: React.FC<ReservationCalendarProps> = () => {
       <div className="reservation_content bg-gray">
         <h2 className="reservation-heading">Availability</h2>
         <div className="col-sm-6">
+
+
           <div className="reservation-calendar_custom">
             <div className="reservation-calendar_title">
               <span className="reservation-calendar_month">JUNE</span>
@@ -207,6 +209,8 @@ const ReservationCalendar: React.FC<ReservationCalendarProps> = () => {
             </table>
           </div>
         </div>
+
+
         <div className="col-sm-6">
           <div className="reservation-calendar_custom">
             <div className="reservation-calendar_title">
@@ -405,6 +409,8 @@ const ReservationCalendar: React.FC<ReservationCalendarProps> = () => {
             </table>
           </div>
         </div>
+
+        
       </div>
     </div>
   );

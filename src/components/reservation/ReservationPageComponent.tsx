@@ -18,23 +18,23 @@ const ReservationPageComponent: React.FC<
             <div className="reservation_step">
               <ul>
                 <li className="active">
-                  <a href="https://landing.engotheme.com/html/skyline/demo/reservation_1.html#">
-                    <span>1.</span> Choose Date
+                  <a href="/">
+                    <span>1.</span> Datos de la reserva
                   </a>
                 </li>
                 <li>
-                  <a href="https://landing.engotheme.com/html/skyline/demo/reservation_1.html#">
-                    <span>2.</span> Choose Room
+                  <a href="/">
+                    <span>2.</span> Elige una habitación
                   </a>
                 </li>
                 <li>
-                  <a href="https://landing.engotheme.com/html/skyline/demo/reservation_1.html#">
-                    <span>3.</span> Make a Reservation
+                  <a href="/">
+                    <span>3.</span> Datos personales
                   </a>
                 </li>
                 <li>
-                  <a href="https://landing.engotheme.com/html/skyline/demo/reservation_1.html#">
-                    <span>4.</span> Confirmation
+                  <a href="/">
+                    <span>4.</span> Confirmación de reserva
                   </a>
                 </li>
               </ul>

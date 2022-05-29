@@ -11,23 +11,23 @@ const ReservationSidebar: React.FC<ReservationSidebarProps> = () => {
       <div className="sidebar">
         {/* <!-- WIDGET CHECK AVAILABILITY --> */}
         <div className="widget widget_check_availability">
-          <h4 className="widget-title">YOUR RESERVATION</h4>
+          <h4 className="widget-title">Completa tu reservación</h4>
           <div className="check_availability">
-            <h6 className="check_availability_title">your stay dates</h6>
+            <h6 className="check_availability_title">Días de estancia</h6>
             <DatePickerInputComponent
-              title="Arrive"
+              title="Ingreso"
               inputID="datepicker1"
-              placeholder="Arrival Date"
+              placeholder="Fecha de llegada"
             />
             <DatePickerInputComponent
-              title="Depature"
+              title="Salida"
               inputID="datepicker2"
-              placeholder="Departure Date"
+              placeholder="Fecha de partida"
             />
-            <h6 className="check_availability_title">ROOMS &amp; GUest</h6>
+            <h6 className="check_availability_title">Habitaciones</h6>
             <ReservationRoomsInputComponent />
             <RoomsAndGuestInputComponent />
-            <button className="btn-room btn">CHECK AVAILABLE</button>
+            <button className="btn-room btn">Reservar</button>
           </div>
         </div>
         {/* <!-- END / WIDGET CHECK AVAILABILITY --> */}

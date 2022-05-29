@@ -7,10 +7,10 @@ const RoomsAndGuestInputComponent: React.FC<
 > = () => {
   return (
     <div className="check_availability_group">
-      <span className="label-group">ROOMS 1</span>
+      <span className="label-group">Habitación</span>
       <div className="check_availability-field_group">
         <div className="check_availability-field">
-          <label>Adult</label>
+          <label>Adulto/s</label>
           <select className="awe-select bs-select-hidden">
             <option>1</option>
             <option>2</option>
@@ -58,7 +58,7 @@ const RoomsAndGuestInputComponent: React.FC<
           </div>
         </div>
         <div className="check_availability-field">
-          <label>Chirld</label>
+          <label>Niño/s</label>
           <select className="awe-select bs-select-hidden">
             <option>1</option>
             <option>2</option>
