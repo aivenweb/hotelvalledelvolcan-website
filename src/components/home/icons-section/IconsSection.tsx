@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "./Icon";
+import IconComponent from "./IconComponent";
 import "./IconsSection.css";
 
 interface IconsSectionProps {}
@@ -10,42 +10,42 @@ const IconsSection: React.FC<IconsSectionProps> = () => {
       <section className="best">
         <div className="container">
           <div className="row">
-            <Icon
+            <IconComponent
               title="WI-FI"
               image="/assets/images/icons/wifi-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Tv satelital"
               image="/assets/images/icons/tv-satelital-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Comodidad"
               image="/assets/images/icons/comodidad-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Restaurante"
               image="/assets/images/icons/restaurante-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Lavandería"
               image="/assets/images/icons/lavanderia-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Pool"
               image="/assets/images/icons/pool-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Gimnasia"
               image="/assets/images/icons/yoga-hotel-valle-del-volcan.png"
               imageDescription="alt"
             />
-            <Icon
+            <IconComponent
               title="Caja fuerte"
               image="/assets/images/icons/caja-fuerte-hotel-valle-del-volcan.png"
               imageDescription="alt"
