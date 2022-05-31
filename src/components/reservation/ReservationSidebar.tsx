@@ -1,7 +1,7 @@
 import React from "react";
-import DatePickerInputComponent from "./DatePickerInputComponent";
-import ReservationRoomsInputComponent from "./ReservationRoomsInputComponent";
-import RoomsAndGuestInputComponent from "./RoomsAndGuestInputComponent";
+import DatePickerInputComponent from "./components/DatePickerInputComponent";
+import ReservationRoomsInputComponent from "./components/ReservationRoomsInputComponent";
+import RoomsAndGuestInputComponent from "./components/RoomsAndGuestInputComponent";
 
 interface ReservationSidebarProps {}
 

@@ -1,4 +1,5 @@
 import React from "react";
+import './ReservationPageComponent.css';
 import BannerComponent from "../BannerComponent";
 import ReservationCalendar from "./ReservationCalendar";
 import ReservationSidebar from "./ReservationSidebar";
