@@ -12881,6 +12881,7 @@ button.close {
 }
 .reservation_content.bg-gray {
   background: #f1f1f1;
+  width: 800px;
 }
 .reservation_content:before,
 .reservation_content:after {
