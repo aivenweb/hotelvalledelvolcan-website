@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import DatePickerInputComponent from "./components/DatePickerInputComponent";
 import ReservationRoomsInputComponent from "./components/ReservationRoomsInputComponent";
 import RoomsAndGuestInputComponent from "./components/RoomsAndGuestInputComponent";
@@ -6,6 +6,11 @@ import RoomsAndGuestInputComponent from "./components/RoomsAndGuestInputComponen
 interface ReservationSidebarProps {}
 
 const ReservationSidebar: React.FC<ReservationSidebarProps> = () => {
+  useLayoutEffect(() => {
+    $('#datepicker1').datepicker();
+    $('#datepicker2').datepicker();
+  })
+  
   return (
     <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">
       <div className="sidebar">
