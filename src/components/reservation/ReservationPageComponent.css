@@ -1,3 +1,7 @@
+/* ------ ESTILOS DE PASOS ------ */
+
+
+/* ------ PRIMER PASO ------ */
 /* Estilos generales */
 
 .react-calendar {
@@ -70,6 +74,12 @@ abbr[title], abbr[data-original-title] {
   background: #fff !important;
 }
 
+@media (min-width: 480px) and (max-width: 768px) {
+  .react-calendar__month-view__days button {
+    width: auto;
+  }
+}
+
 /* Deshabilitados */
 
 .react-calendar__tile:disabled {
@@ -93,3 +103,5 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
 .react-calendar__month-view__days button:enabled:hover {
   border: 2px solid #bf9b79;
 }
+
+/* ------ SEGUNDO PASO ------ */

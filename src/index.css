@@ -12869,7 +12869,6 @@ button.close {
 .reservation_content {
   padding-bottom: 20px;
   margin-top: 45px;
-  margin-left: 70px;
 }
 @media (max-width: 991px) {
   .reservation_content {
@@ -12878,13 +12877,21 @@ button.close {
 }
 .reservation_content.bg-gray {
   background: #f1f1f1;
-  width: 800px;
 }
 .reservation_content:before,
 .reservation_content:after {
   content: "";
   display: table;
   clear: both;
+}
+@media (min-width: 1200px) {
+  .reservation_content {
+    margin-left: 70px;
+  }
+  
+  .reservation_content.bg-gray {
+    width: 800px;
+  }
 }
 
 .reservation-calendar_custom .reservation-calendar_title {
