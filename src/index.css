@@ -11072,13 +11072,13 @@ button.close {
   .bootstrap-select.btn-group.awe-select
   .dropdown-menu
   ul
-  li
-  a {
+  li {
   padding: 7px 10px;
   outline: none;
   color: #898989;
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
 }
 .sidebar
   .widget.widget_check_availability
@@ -11087,17 +11087,15 @@ button.close {
   .bootstrap-select.btn-group.awe-select
   .dropdown-menu
   ul
-  li
-  a:hover,
-.sidebar
+  li:hover,
+  .sidebar
   .widget.widget_check_availability
   .check_availability
   .check_availability-field
   .bootstrap-select.btn-group.awe-select
   .dropdown-menu
   ul
-  li
-  a:focus {
+  li:focus {
   background: #bf9b79;
   color: white;
 }
@@ -12133,8 +12131,7 @@ button.close {
   .bootstrap-select.attraction_select.awe-select
   .dropdown-menu
   ul
-  li
-  a {
+  li {
   padding: 7px 10px;
   outline: none;
   color: #898989;

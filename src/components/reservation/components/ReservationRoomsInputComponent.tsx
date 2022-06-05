@@ -27,28 +27,28 @@ const ReservationRoomsInputComponent: React.FC<
         <div className="dropdown-menu open">
           <ul className="dropdown-menu inner" role="menu">
             <li data-original-index="0" className="selected">
-              <a className="" data-tokens="null">
+              <div className="" data-tokens="null">
                 <span className="text">1</span>
                 <span className="glyphicon glyphicon-ok check-mark"></span>
-              </a>
+              </div>
             </li>
             <li data-original-index="1">
-              <a className="" data-tokens="null">
+              <div className="" data-tokens="null">
                 <span className="text">2</span>
                 <span className="glyphicon glyphicon-ok check-mark"></span>
-              </a>
+              </div>
             </li>
             <li data-original-index="2">
-              <a className="" data-tokens="null">
+              <div className="" data-tokens="null">
                 <span className="text">3</span>
                 <span className="glyphicon glyphicon-ok check-mark"></span>
-              </a>
+              </div>
             </li>
             <li data-original-index="3">
-              <a className="" data-tokens="null">
+              <div className="" data-tokens="null">
                 <span className="text">4</span>
                 <span className="glyphicon glyphicon-ok check-mark"></span>
-              </a>
+              </div>
             </li>
           </ul>
         </div>
