@@ -27,22 +27,34 @@ const ReservationPageComponent: React.FC<
             {/* <!-- STEPS --> */}
             <div className="reservation_step">
               <ul>
-                <li className={`${getActiveClassName(1, "active-tabs active")}`} onClick={() => handleShowTab(1)}>
+                <li
+                  className={`${getActiveClassName(1, "active-tabs active")}`}
+                  onClick={() => handleShowTab(1)}
+                >
                   <div>
                     <span>1.</span> Datos de la reserva
                   </div>
                 </li>
-                <li className={`${getActiveClassName(2, "active-tabs active")}`} onClick={() => handleShowTab(2)}>
+                <li
+                  className={`${getActiveClassName(2, "active-tabs active")}`}
+                  onClick={() => handleShowTab(2)}
+                >
                   <div>
                     <span>2.</span> Elige una habitación
                   </div>
                 </li>
-                <li className={`${getActiveClassName(3, "active-tabs active")}`} onClick={() => handleShowTab(3)}>
+                <li
+                  className={`${getActiveClassName(3, "active-tabs active")}`}
+                  onClick={() => handleShowTab(3)}
+                >
                   <div>
                     <span>3.</span> Datos personales
                   </div>
                 </li>
-                <li className={`${getActiveClassName(4, "active-tabs active")}`} onClick={() => handleShowTab(4)}>
+                <li
+                  className={`${getActiveClassName(4, "active-tabs active")}`}
+                  onClick={() => handleShowTab(4)}
+                >
                   <div>
                     <span>4.</span> Confirmación de reserva
                   </div>
@@ -51,13 +63,30 @@ const ReservationPageComponent: React.FC<
             </div>
             {/* <!-- END / STEPS --> */}
             <div className="row">
-              <div className={`content ${getActiveClassName(1, "active-content")}`}>
+              <div
+                className={`content ${getActiveClassName(1, "active-content")}`}
+              >
                 <ReservationSidebar />
                 <ReservationCalendar />
               </div>
-              <div className={`content ${getActiveClassName(2, "active-content")}`}>TAB 1</div>
-              <div className={`content ${getActiveClassName(3, "active-content")}`}>TAB 2</div>
-              <div className={`content ${getActiveClassName(4, "active-content")}`}>TAB 3</div>
+              <div
+                className={`content ${getActiveClassName(2, "active-content")}`}
+              >
+                TAB 1
+              </div>
+              <div
+                className={`content ${getActiveClassName(3, "active-content")}`}
+              >
+                TAB 2
+              </div>
+              <div
+                className={`content ${getActiveClassName(4, "active-content")}`}
+              >
+                TAB 3
+              </div>
+            </div>
+            <div className="row next-step_container">
+              <button className="btn-next-step btn">Siguiente paso</button>
             </div>
           </div>
         </div>

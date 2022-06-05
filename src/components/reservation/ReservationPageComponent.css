@@ -8,6 +8,31 @@
   display: contents;
 }
 
+/* ------ BOTON DE SIGUIENTE PASO ------ */
+
+.next-step_container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn-next-step {
+  width: 100%;
+  font-size: 14px;
+  color: #ffffff;
+  background: #bf9b79;
+  height: 40px;
+  max-width: 260px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-next-step:hover {
+  border: 2px solid #bf9b79;
+  background: transparent;
+  color: #bf9b79;
+}
+
 /* ------ PRIMER PASO ------ */
 /* Estilos generales */
 
