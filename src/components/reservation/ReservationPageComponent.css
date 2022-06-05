@@ -1,5 +1,12 @@
 /* ------ ESTILOS DE PASOS ------ */
 
+#reservation-page .content {
+  display: none;
+}
+
+#reservation-page .active-content {
+  display: contents;
+}
 
 /* ------ PRIMER PASO ------ */
 /* Estilos generales */
@@ -23,7 +30,7 @@
   padding-top: 7px;
 }
 
-.react-calendar__navigation button:enabled:hover, 
+.react-calendar__navigation button:enabled:hover,
 .react-calendar__navigation button:enabled:focus {
   background: transparent !important;
 }
@@ -59,7 +66,8 @@
   font-size: 12px !important;
 }
 
-abbr[title], abbr[data-original-title] {
+abbr[title],
+abbr[data-original-title] {
   border-bottom: none !important;
   text-decoration: none !important;
   cursor: default !important;

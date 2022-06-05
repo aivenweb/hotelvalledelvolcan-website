@@ -12493,13 +12493,13 @@ button.close {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.reservation_step ul li a {
+.reservation_step ul li div {
   color: #333;
   display: block;
   padding: 15px 0;
   font-size: 14px;
 }
-.reservation_step ul li a span {
+.reservation_step ul li div span {
   font-weight: bold;
   font-size: 16px;
 }
