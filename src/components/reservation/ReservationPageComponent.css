@@ -13,6 +13,17 @@
 
 /* Estilos de botones de navegación  */
 
+.react-calendar__navigation {
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 16px;
+  padding-top: 7px;
+}
+
+.react-calendar__navigation button:enabled:hover, 
+.react-calendar__navigation button:enabled:focus {
+  background: transparent !important;
+}
+
 .react-calendar__navigation__prev2-button,
 .react-calendar__navigation__prev-button,
 .react-calendar__navigation__next-button,
@@ -20,21 +31,39 @@
   font-size: 18px !important;
 }
 
+.react-calendar__navigation__arrow[disabled] {
+  color: #bdbdbd !important;
+}
+
+.react-calendar__navigation__label__labelText {
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
 /* Estilos de franja días de la semana */
 
 .react-calendar__month-view__weekdays {
-  height: 30px;
   background: #f1f1f1;
   margin-bottom: 3px;
+  padding: 10px 0;
 }
 
-.react-calendar__month-view__weekdays__weekday > abbr {
+.react-calendar__month-view__weekdays__weekday {
+  padding: 0 !important;
+  font-size: 12px !important;
+}
+
+abbr[title], abbr[data-original-title] {
   border-bottom: none !important;
+  text-decoration: none !important;
+  cursor: default !important;
 }
 
 /* Estilos de botones */
 
-.react-calendar button {
+.react-calendar__month-view__days button {
   height: 45px;
   width: 50px;
   margin: 2px !important;
@@ -61,6 +90,6 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
   background: radial-gradient(#ffff76, transparent) !important;
 }
 
-.react-calendar button:enabled:hover {
+.react-calendar__month-view__days button:enabled:hover {
   border: 2px solid #bf9b79;
 }
