@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import "./ReservationPageComponent.css";
 import BannerComponent from "../BannerComponent";
-import ReservationCalendar from "./ReservationCalendar";
-import ReservationSidebar from "./ReservationSidebar";
+import ReservationCalendar from "./components/tabs/tab-reservation/ReservationCalendar";
+import ReservationSidebar from "./components/tabs/tab-reservation/ReservationSidebar";
+import TabReservation from "./components/tabs/tab-reservation/TabReservation";
 
 interface ReservationPageComponentProps {}
 
@@ -66,8 +67,7 @@ const ReservationPageComponent: React.FC<
               <div
                 className={`content ${getActiveClassName(1, "active-content")}`}
               >
-                <ReservationSidebar />
-                <ReservationCalendar />
+                <TabReservation/>
               </div>
               <div
                 className={`content ${getActiveClassName(2, "active-content")}`}

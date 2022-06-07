@@ -1,16 +1,41 @@
 import React, { useLayoutEffect } from "react";
-import DatePickerInputComponent from "./components/DatePickerInputComponent";
-import ReservationRoomsInputComponent from "./components/ReservationRoomsInputComponent";
-import RoomsAndGuestInputComponent from "./components/RoomsAndGuestInputComponent";
+import DatePickerInputComponent from "../../DatePickerInputComponent";
+import ReservationRoomsInputComponent from "../../ReservationRoomsInputComponent";
+import RoomsAndGuestInputComponent from "../../RoomsAndGuestInputComponent";
 
-interface ReservationSidebarProps {}
+interface ReservationSidebarProps {
+  dateFrom: Date;
+  dateTo: Date;
+  onDateFromChange: (date: Date) => void;
+  onDateToChange: (date: Date) => void;
+}
 
-const ReservationSidebar: React.FC<ReservationSidebarProps> = () => {
+const ReservationSidebar: React.FC<ReservationSidebarProps> = ({
+  dateFrom,
+  dateTo,
+  onDateFromChange,
+  onDateToChange,
+}) => {
   useLayoutEffect(() => {
-    $('#datepicker1').datepicker();
-    $('#datepicker2').datepicker();
-  })
-  
+    const datepicker1 = $("#datepicker1");
+    datepicker1.datepicker("update", dateFrom);
+    datepicker1.on("changeDate", function (e) {
+      onDateFromChange(e.date);
+
+      if (e.date >= dateTo) {
+        onDateToChange(e.date);
+      }
+    });
+
+    const datepicker2 = $("#datepicker2");
+    datepicker2.datepicker("update", dateTo);
+    datepicker2.on("changeDate", function (e) {
+      if (e.date > dateFrom) {
+        onDateToChange(e.date);
+      }
+    });
+  });
+
   return (
     <div className="col-lg-3 col-md-4 col-sm-12 col-xs-12">
       <div className="sidebar">
