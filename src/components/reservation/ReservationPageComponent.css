@@ -33,7 +33,7 @@
   color: #bf9b79;
 }
 
-/* ------ PRIMER PASO ------ */
+/* ------ PRIMER PASO: Elegir disponibilidad ------ */
 /* Estilos generales */
 
 .react-calendar {
@@ -137,4 +137,68 @@ button.react-calendar__tile.react-calendar__tile--active.react-calendar__tile--r
   border: 2px solid #bf9b79;
 }
 
-/* ------ SEGUNDO PASO ------ */
+/* ------ SEGUNDO PASO: Información del/los huésped/es ------ */
+
+.reservation-row_container {
+  display: flex;
+  justify-content: center;
+}
+
+.reservation_personal-data h3,
+.reservation_personal-data h4 {
+  color: #000;
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.reservation_personal-data h4 {
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+.reservation_personal-data h3 {
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.reservation_personal-data .optional-data {
+  margin-top: 20px;
+  display: flex;
+}
+
+.optional-data span {
+  display: flex;
+  align-self: flex-end;
+  margin: 0 0 10px 10px;
+}
+
+.reservation_personal-data label {
+  color: #232323;
+  font-size: 12px;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.reservation_personal-data label sup {
+  color: #ff0000;
+  font-size: 13px;
+  line-height: 0px;
+  top: 0px;
+  left: 4px;
+}
+
+.reservation_personal-data .input-text {
+  border: 2px solid #e4e4e4;
+  width: 100%;
+  font-size: 14px;
+  color: #232323;
+  font-weight: normal;
+  height: 43px;
+  border-radius: 0;
+  padding: 20px;
+}

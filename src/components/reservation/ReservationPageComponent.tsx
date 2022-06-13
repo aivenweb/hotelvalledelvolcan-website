@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import "./ReservationPageComponent.css";
 import BannerComponent from "../BannerComponent";
-import ReservationCalendar from "./components/tabs/tab-reservation/ReservationCalendar";
-import ReservationSidebar from "./components/tabs/tab-reservation/ReservationSidebar";
-import TabReservation from "./components/tabs/tab-reservation/TabReservation";
+import ReservationCalendar from "./components/tabs/reservation/ReservationCalendar";
+import ReservationSidebar from "./components/tabs/reservation/ReservationSidebar";
+import TabReservation from "./components/tabs/reservation/TabReservation";
+import TabPersonalData from "./components/tabs/personalData/TabPersonalData";
 
 interface ReservationPageComponentProps {}
 
@@ -41,7 +42,7 @@ const ReservationPageComponent: React.FC<
                   onClick={() => handleShowTab(2)}
                 >
                   <div>
-                    <span>2.</span> Elige una habitación
+                    <span>2.</span> Datos personales
                   </div>
                 </li>
                 <li
@@ -49,7 +50,7 @@ const ReservationPageComponent: React.FC<
                   onClick={() => handleShowTab(3)}
                 >
                   <div>
-                    <span>3.</span> Datos personales
+                    <span>3.</span> Elige una habitación
                   </div>
                 </li>
                 <li
@@ -72,7 +73,7 @@ const ReservationPageComponent: React.FC<
               <div
                 className={`content ${getActiveClassName(2, "active-content")}`}
               >
-                TAB 1
+                <TabPersonalData/>
               </div>
               <div
                 className={`content ${getActiveClassName(3, "active-content")}`}
@@ -84,9 +85,6 @@ const ReservationPageComponent: React.FC<
               >
                 TAB 3
               </div>
-            </div>
-            <div className="row next-step_container">
-              <button className="btn-next-step btn">Siguiente paso</button>
             </div>
           </div>
         </div>
