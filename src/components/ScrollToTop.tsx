@@ -1,19 +1,21 @@
+import { faAngleUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-interface ScrollToTopProps {}
+interface ScrollToTopProps {
+  scrollToTop: Function;
+}
 
-const ScrollToTop: React.FC<ScrollToTopProps> = () => {
+const ScrollToTop: React.FC<ScrollToTopProps> = ({scrollToTop}) => {
   return (
-    <div id="scroll-to-top">
-      <a
-        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
-        title="sroll"
+    <button onClick={() => scrollToTop()} id="scroll-to-top">
+      <div
         className="scrollToTop"
         style={{display: 'block'}}
       >
-        <i className="fa fa-angle-up"></i>
-      </a>
-    </div>
+        <FontAwesomeIcon icon={faAngleUp}/>
+      </div>
+    </button>
   );
 };
 

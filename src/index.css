@@ -4425,6 +4425,8 @@ tbody.collapse.in {
   line-height: 1.428571429;
   color: #333333;
   white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
 }
 
 .dropdown-menu > li > a:hover,
@@ -9143,6 +9145,9 @@ button.close {
 }
 
 /* 2.4.6 SCROLL TOP*/
+#scroll-to-top {
+  cursor: pointer;
+}
 .scrollToTop {
   width: 42px;
   height: 42px;
@@ -15012,13 +15017,13 @@ button.close {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  padding-top: 45px;
   color: white;
   cursor: pointer;
 }
 .section-slider .check-avail .container .find_btn .text-find:hover {
   color: #bf9b79;
 }
+
 .section-slider:hover {
   opacity: 1;
 }

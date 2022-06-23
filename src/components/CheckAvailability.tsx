@@ -1,8 +1,10 @@
-import React, { useLayoutEffect } from "react";
+import React, { useLayoutEffect, useState } from "react";
 
 interface CheckAvailabilityProps {}
 
 const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
+  const [adults, setAdults] = useState<number>(1);
+  const [children, setChildren] = useState<number>(0);
 
   useLayoutEffect(() => {
     $('#datepicker').datepicker();
@@ -44,24 +46,23 @@ const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
             <form>
               <div className="carousel-search">
                 <div className="btn-group">
-                  <a
+                  <div
                     className="btn dropdown-toggle"
                     data-toggle="dropdown"
-                    href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   >
-                    2
-                  </a>
+                    {adults}
+                  </div>
                   <ul className="dropdown-menu">
-                    <li>
+                    <li onClick={() => setAdults(1)}>
                       1
                     </li>
-                    <li>
+                    <li onClick={() => setAdults(2)}>
                       2
                     </li>
-                    <li>
+                    <li onClick={() => setAdults(3)}>
                       3
                     </li>
-                    <li>
+                    <li onClick={() => setAdults(4)}>
                       4
                     </li>
                   </ul>
@@ -74,27 +75,26 @@ const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
             <form>
               <div className="carousel-search">
                 <div className="btn-group">
-                  <a
+                  <div
                     className="btn dropdown-toggle"
                     data-toggle="dropdown"
-                    href="http://landing.engotheme.com/html/skyline/demo/index.html#"
                   >
-                    2
-                  </a>
+                    {children}
+                  </div>
                   <ul className="dropdown-menu">
-                    <li>
+                    <li onClick={() => setChildren(0)}>
                       0
                     </li>
-                    <li>
+                    <li onClick={() => setChildren(1)}>
                       1
                     </li>
-                    <li>
+                    <li onClick={() => setChildren(2)}>
                       2
                     </li>
-                    <li>
+                    <li onClick={() => setChildren(3)}>
                       3
                     </li>
-                    <li>
+                    <li onClick={() => setChildren(4)}>
                       4
                     </li>
                   </ul>
@@ -102,13 +102,13 @@ const CheckAvailability: React.FC<CheckAvailabilityProps> = () => {
               </div>
             </form>
           </div>
-          <div className="find_btn date-title">
+          <button className="find_btn date-title">
             <div className="text-find">
               Confirmar
               <br />
               Disponibilidad
             </div>
-          </div>
+          </button>
         </div>
       </div>
     </div>
