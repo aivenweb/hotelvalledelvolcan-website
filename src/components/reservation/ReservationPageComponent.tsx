@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./ReservationPageComponent.css";
 import BannerComponent from "../BannerComponent";
-import ReservationCalendar from "./components/tabs/reservation/ReservationCalendar";
-import ReservationSidebar from "./components/tabs/reservation/ReservationSidebar";
 import TabReservation from "./components/tabs/reservation/TabReservation";
 import TabPersonalData from "./components/tabs/personalData/TabPersonalData";
 
@@ -31,7 +29,7 @@ const ReservationPageComponent: React.FC<
               <ul>
                 <li
                   className={`${getActiveClassName(1, "active-tabs active")}`}
-                  onClick={() => handleShowTab(1)}
+                  // onClick={() => handleShowTab(1)}
                 >
                   <div>
                     <span>1.</span> Datos de la reserva
@@ -39,7 +37,7 @@ const ReservationPageComponent: React.FC<
                 </li>
                 <li
                   className={`${getActiveClassName(2, "active-tabs active")}`}
-                  onClick={() => handleShowTab(2)}
+                  // onClick={() => handleShowTab(2)}
                 >
                   <div>
                     <span>2.</span> Datos personales
@@ -47,7 +45,7 @@ const ReservationPageComponent: React.FC<
                 </li>
                 <li
                   className={`${getActiveClassName(3, "active-tabs active")}`}
-                  onClick={() => handleShowTab(3)}
+                  // onClick={() => handleShowTab(3)}
                 >
                   <div>
                     <span>3.</span> Elige una habitación
@@ -68,22 +66,59 @@ const ReservationPageComponent: React.FC<
               <div
                 className={`content ${getActiveClassName(1, "active-content")}`}
               >
-                <TabReservation/>
+                <div className="tab-content">
+                  <TabReservation />
+                  <div className="row next-step_container">
+                    <button
+                      className="btn-next-step btn"
+                      onClick={() => handleShowTab(2)}
+                    >
+                      Siguiente paso
+                    </button>
+                  </div>
+                </div>
               </div>
               <div
                 className={`content ${getActiveClassName(2, "active-content")}`}
               >
-                <TabPersonalData/>
+                <div className="tab-content">
+                  <TabPersonalData />
+                  <div className="row next-step_container">
+                    <button
+                      className="btn-next-step btn"
+                      onClick={() => handleShowTab(3)}
+                    >
+                      Siguiente paso
+                    </button>
+                  </div>
+                </div>
               </div>
               <div
                 className={`content ${getActiveClassName(3, "active-content")}`}
               >
-                TAB 2
+                <div className="tab-content">
+                  TAB 2
+                  <div className="row next-step_container">
+                    <button
+                      className="btn-next-step btn"
+                      onClick={() => handleShowTab(4)}
+                    >
+                      Siguiente paso
+                    </button>
+                  </div>
+                </div>
               </div>
               <div
                 className={`content ${getActiveClassName(4, "active-content")}`}
               >
-                TAB 3
+                <div className="tab-content">
+                  tab 3
+                  <div className="row next-step_container">
+                    <button className="btn-next-step btn">
+                      Confirmar reserva
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

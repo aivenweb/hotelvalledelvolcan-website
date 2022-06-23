@@ -6,7 +6,7 @@ interface TabPersonalDataProps {}
 
 const TabPersonalData: React.FC<TabPersonalDataProps> = () => {
   return (
-    <>
+    <div>
       <div className="row reservation-row_container">
         <div className="reservation_personal-data">
           <h4>Ingresa tus datos</h4>
@@ -45,12 +45,7 @@ const TabPersonalData: React.FC<TabPersonalDataProps> = () => {
           />
         </div>
       </div>
-      <div className="">
-        <div className="row next-step_container">
-          <button className="btn-next-step btn">Siguiente paso</button>
-        </div>
-      </div>
-    </>
+    </div>
   );
 };
 

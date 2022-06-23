@@ -49,11 +49,6 @@ const ReservationCalendar: React.FC<ReservationCalendarProps> = ({
           </div>
         </div>
       </div>
-      <div className=" col-lg-9 col-md-8 col-sm-12 col-xs-12">
-        <div className="row next-step_container">
-          <button className="btn-next-step btn">Siguiente paso</button>
-        </div>
-      </div>
     </div>
   );
 };

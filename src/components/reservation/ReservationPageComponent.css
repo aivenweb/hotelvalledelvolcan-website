@@ -10,9 +10,15 @@
 
 /* ------ BOTON DE SIGUIENTE PASO ------ */
 
+#reservation-page .tab-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .next-step_container {
   display: flex;
   justify-content: flex-end;
+  margin-right: 15px;
 }
 
 .btn-next-step {
@@ -34,6 +40,7 @@
 }
 
 /* ------ PRIMER PASO: Elegir disponibilidad ------ */
+
 /* Estilos generales */
 
 .react-calendar {

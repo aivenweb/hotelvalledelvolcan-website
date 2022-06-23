@@ -21,7 +21,7 @@ const TabReservation: React.FC<{}> = () => {
   };
 
   return (
-    <>
+    <div>
       <ReservationSidebar
         dateFrom={dateFrom}
         dateTo={dateTo}
@@ -34,7 +34,7 @@ const TabReservation: React.FC<{}> = () => {
         onDateFromChange={dateFromChangeHandle}
         onDateToChange={dateToChangeHandle}
       />
-    </>
+    </div>
   );
 };
 

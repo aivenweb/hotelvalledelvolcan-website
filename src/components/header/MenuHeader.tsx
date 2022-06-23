@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 interface MenuHeaderProps {}
 
@@ -30,28 +31,28 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
           <div className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
               <li className="dropdown ">
-                <a
-                  href="http://landing.engotheme.com/html/skyline/demo/index.html"
+                <Link
+                  to="/"
                   title="Home"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
                 >
                   Inicio
-                </a>
+                </Link>
               </li>
               <li className="dropdown ">
-                <a
-                  href="http://landing.engotheme.com/html/skyline/demo/room_1.html"
+                <Link
+                  to="/reservacion"
                   title="Room &amp; Rate"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
                 >
                   Reservas
-                </a>
+                </Link>
               </li>
               <li className="dropdown ">
                 <a
-                  href="http://landing.engotheme.com/html/skyline/demo/reservation_1.html"
+                  href="/about-us"
                   title="Reservation"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
@@ -67,14 +68,14 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                   Blog
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/contact.html"
                   title="Contact"
                 >
                   Contacto
                 </a>
-              </li>
+              </li> */}
               {/* <li className="dropdown ">
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/room_1.html"
