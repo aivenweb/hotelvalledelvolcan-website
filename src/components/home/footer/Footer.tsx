@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import EmailInput from "./EmailInput";
 import IconSection from "./IconSection";
+import { Link } from "react-router-dom";
 
 interface FooterProps {}
 
@@ -39,35 +40,35 @@ const Footer: React.FC<FooterProps> = () => {
                 <div className="list-content">
                   <ul>
                     <li>
-                      <a href="/#about-us" title="">
+                      <Link to="/sobre-nosotros" title="">
                         Sobre Nosotros
-                      </a>
+                      </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="/#rooms" title="">
                         Precios
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
+                      <Link
+                        to="/reservacion"
                         title=""
                       >
                         Reservas
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
-                        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
+                      <Link
+                        to="/nuestros-servicios"
                         title=""
                       >
-                        Blog
-                      </a>
+                        Servicios
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
+              {/* <div className="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
                 <div className="list-content">
                   <ul>
                     <li>
@@ -88,7 +89,7 @@ const Footer: React.FC<FooterProps> = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xs-4 col-sm-4 col-md-2 col-lg-2 col-lg-offset-1 col-md-offset-1">
                 <div className="list-content">
                   <ul>
