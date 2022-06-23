@@ -52,7 +52,7 @@ const HotelServicesPageComponent: React.FC<
                 secondaryImage="/assets/images/services/actividades-2-hotel-valle-del-volcan.jpg"
                 serviceTitle="Actividades al aire libre en Copahue"
                 serviceDescription="En Club Hotel Valle Del Volcán las comidas se realizan de forma
-                casera, También contamos con un menú fijo y dietas especiales a pedido
+                casera. También contamos con un menú fijo y dietas especiales a pedido
                 de nuestros clientes. Ofrecemos desayuno continental con panes caseros
                 y mermeladas caseras, tostadas, jugo de naranjas, frutas, medialunas y
                 cafetería de primera calidad."

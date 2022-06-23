@@ -20,20 +20,20 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
               <span className="icon-bar "></span>
               <span className="icon-bar "></span>
             </button>
-            <a
+            <Link
               className="navbar-brand"
-              href="file:///E:/Xampp/htdocs/skyline/index.html"
+              to="/"
               title="Skyline"
             >
               <img src="./Home 1_files/sky-logo-header.png" alt="#" />
-            </a>
+            </Link>
           </div>
           <div className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right">
               <li className="dropdown ">
                 <Link
                   to="/"
-                  title="Home"
+                  title="Inicio"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
                 >
@@ -43,7 +43,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
               <li className="dropdown ">
                 <Link
                   to="/reservacion"
-                  title="Room &amp; Rate"
+                  title="Reservas"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
                 >
@@ -51,14 +51,24 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                 </Link>
               </li>
               <li className="dropdown ">
-                <a
-                  href="/about-us"
-                  title="Reservation"
+                <Link
+                  to="/sobre-nosotros"
+                  title="Nosotros"
                   className="dropdown-toggle"
                   data-toggle="dropdown"
                 >
                   Nosotros
-                </a>
+                </Link>
+              </li>
+              <li className="dropdown ">
+                <Link
+                  to="/nuestros-servicios"
+                  title="Servicios"
+                  className="dropdown-toggle"
+                  data-toggle="dropdown"
+                >
+                  Servicios
+                </Link>
               </li>
               <li>
                 <a
