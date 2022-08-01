@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ScrollToTop from "../ScrollToTop";
+import WhatsappFloatingButton from "../WhatsappFloatingButton";
 import AboutUs from "./about-us/AboutUs";
 import BlogSection from "./blog/BlogSection";
 import Cover from "./cover/Cover";
@@ -43,11 +44,12 @@ const HomePageComponent: React.FC<HomePageComponentProps> = () => {
       <Rooms />
       {/* <BlogSection /> */}
       <Gallery />
-      {
+      <WhatsappFloatingButton />
+      {/* {
         showButton && (
           <ScrollToTop scrollToTop={scrollToTop} />
         )
-      }
+      } */}
     </>
   );
 };

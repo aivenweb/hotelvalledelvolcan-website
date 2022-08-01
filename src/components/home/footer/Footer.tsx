@@ -106,7 +106,7 @@ const Footer: React.FC<FooterProps> = () => {
                         href="https://api.whatsapp.com/send?phone=5491122578646"
                         title=""
                       >
-                        +54 9 11 2257-86469435
+                        +54 9 11 2257-8646
                       </a>
                     </li>
                   </ul>

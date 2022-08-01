@@ -9170,6 +9170,29 @@ button.close {
   color: #fff;
 }
 
+.whatsapp-floating-btn {
+  position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.whatsapp-floating-btn:visited {
+  color: #fff;
+}
+
+.whatsapp-float-icon {
+  margin-top:16px;
+}
+
 /* 2.4.8 BEST */
 .best {
   margin-bottom: 70px;
