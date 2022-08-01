@@ -6,6 +6,7 @@ interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => {
   const [scrollOnTop, setScrollOnTop] = useState(true)
+  const [weather, setWeather] = useState<number>(0)
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -13,6 +14,14 @@ const Header: React.FC<HeaderProps> = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, );
+
+  useEffect(() => {
+    fetch("https://services.meteored.com/web/forecast/cookie/v1/321450.json")
+      .then(response => response.json())
+      .then(res => {
+        setWeather(res.response.data.current.temperature.value)
+      })
+  }, []) 
 
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -24,7 +33,7 @@ const Header: React.FC<HeaderProps> = () => {
   return (
     <header className={scrollOnTop ? ("header-sky") : ("header-sky header-top-sky")}>
       <div className="container">
-        <HeaderTop />
+        <HeaderTop weather={weather}/>
       </div>
       <MenuHeader />
     </header>

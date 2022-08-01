@@ -6,15 +6,17 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
-interface HeaderTopProps {}
+interface HeaderTopProps {
+  weather: number;
+}
 
-const HeaderTop: React.FC<HeaderTopProps> = () => {
+const HeaderTop: React.FC<HeaderTopProps> = ({weather}) => {
   return (
     <div id="header-top">
       <div className="header-top">
         <div className="header-top-right">
           <span className="info">
-            <FontAwesomeIcon icon={faCloud} /> 18 °C
+            <FontAwesomeIcon icon={faCloud} /> {weather} °C
           </span>
           <span className="info">
             <FontAwesomeIcon icon={faLocationDot} /> Herrero Ducloux 120,
