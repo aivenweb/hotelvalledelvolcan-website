@@ -12,8 +12,8 @@ const Routes = () => {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/reservacion" component={ReservationPage} />
-        <Route path="/sobre-nosotros" component={AboutUsPage} />
+        {/* <Route path="/reservacion" component={ReservationPage} />
+        <Route path="/sobre-nosotros" component={AboutUsPage} /> */}
         <Route path="/nuestros-servicios" component={HotelServicesPage} />
       </Switch>
       <Footer />

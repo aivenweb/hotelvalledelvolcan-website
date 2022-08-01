@@ -41,7 +41,7 @@ const HomePageComponent: React.FC<HomePageComponentProps> = () => {
       <OurServices />
       <IconsSection />
       <Rooms />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <Gallery />
       {
         showButton && (

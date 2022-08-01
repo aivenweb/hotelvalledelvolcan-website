@@ -40,7 +40,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                   Inicio
                 </Link>
               </li>
-              <li className="dropdown ">
+              {/* <li className="dropdown ">
                 <Link
                   to="/reservacion"
                   title="Reservas"
@@ -49,8 +49,8 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                 >
                   Reservas
                 </Link>
-              </li>
-              <li className="dropdown ">
+              </li> */}
+              {/* <li className="dropdown ">
                 <Link
                   to="/sobre-nosotros"
                   title="Nosotros"
@@ -59,7 +59,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                 >
                   Nosotros
                 </Link>
-              </li>
+              </li> */}
               <li className="dropdown ">
                 <Link
                   to="/nuestros-servicios"
@@ -70,14 +70,14 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                   Servicios
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/about.html"
                   title="About"
                 >
                   Blog
                 </a>
-              </li>
+              </li> */}
               {/* <li>
                 <a
                   href="http://landing.engotheme.com/html/skyline/demo/contact.html"

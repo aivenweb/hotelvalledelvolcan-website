@@ -23,7 +23,7 @@ const Cover: React.FC<CoverProps> = () => {
             </p>
           </div>
         </div> */}
-        <CheckAvailability />
+        {/* <CheckAvailability /> */}
       </section>
     </div>
   );

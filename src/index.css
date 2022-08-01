@@ -6289,7 +6289,7 @@ a.thumbnail.active {
   );
 }
 #rooms .title-room {
-  color: #232323;
+  color: #bf9b79;
 }
 #rooms .line {
   width: 250px;
@@ -9200,7 +9200,8 @@ button.close {
   margin-bottom: 45px;
 }
 .about .about-title {
-  color: #232323;
+  /* color: #232323; */
+  color: #bf9b79;
   position: relative;
   margin-top: 0;
 }
@@ -15067,7 +15068,7 @@ body {
 .about .about-title,
 #rooms .title-room {
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Playfair Display", serif;
 }
 
