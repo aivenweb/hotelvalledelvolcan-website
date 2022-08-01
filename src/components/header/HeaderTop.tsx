@@ -23,7 +23,7 @@ const HeaderTop: React.FC<HeaderTopProps> = ({weather}) => {
             Copahue Q8348AGA Argentina
           </span>
           <span className="info">
-            <FontAwesomeIcon icon={faPhone} /> +54 9 2942 66-9435
+            <FontAwesomeIcon icon={faPhone} /> +54 9 11 2257-8646
           </span>
         </div>
       </div>
