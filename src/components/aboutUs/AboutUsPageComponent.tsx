@@ -1,4 +1,5 @@
 import React from "react";
+import './AboutUsPageComponent.scss'
 import BannerComponent from "../BannerComponent";
 
 interface AboutUsPageComponentProps {}
@@ -14,32 +15,29 @@ const AboutUsPageComponent: React.FC<AboutUsPageComponentProps> = () => {
               <div className="about-item">
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding-right">
                   <div className="img img-left">
-                    <img src="/assets/images/fachada-hotel-valle-del-volcan.jpg" alt="" />
+                    <img
+                      src="/assets/images/fachada-hotel-valle-del-volcan.jpg"
+                      alt=""
+                    />
                   </div>
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding-left">
                   <div className="text">
-                    <h2 className="heading">ABOUT US</h2>
+                    <h2 className="heading">Nosotros</h2>
                     <div className="desc">
                       <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum is
-                        that it has a more-or-less normal distribution of
-                        letters, as opposed to using 'Content here, content
-                        here', making it look like readable English. Many
-                        desktop publishing packages and web page editors now use
-                        Lorem Ipsum as their default model text, and a search
-                        for 'lorem ipsum' will uncover many web sites still in
-                        their infancy.
+                        Todo el equipo de Hotel Valle del Volcán trabaja en
+                        conjunto para lograr la satisfacción de nuestros
+                        clientes. La clave de nuestro éxito es la excelente
+                        calidad humana de todas las personas que trabajan con
+                        nosotros y que hacen de la estadía de los clientes un
+                        lugar como en casa.
                       </p>
                       <br></br>
                       <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure{" "}
+                        Una ubicación privilegiada que permite disfrutar de la
+                        naturaleza y el descanso. En Hotel Valle del Volcán nos
+                        encargamos de que disfrutes de lo mejor de Copahue.{" "}
                       </p>
                     </div>
                   </div>
@@ -53,24 +51,29 @@ const AboutUsPageComponent: React.FC<AboutUsPageComponentProps> = () => {
                 </div>
                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 no-padding-right col-lg-pull-6 col-md-pull-6">
                   <div className="text">
-                    <h2 className="heading">WHY GUEST CHOOSE SKYLINE HOTEL</h2>
+                    <h2 className="heading">
+                      ¿Cómo llegar?
+                    </h2>
                     <div className="desc">
                       <p>
-                        It is a long established fact that a reader will be
-                        distracted by the readable content of a page when
-                        looking at its layout. The point of using Lorem Ipsum is
-                        that it has a more-or-less normal distribution of
-                        letters, as opposed to using 'Content here, content
-                        here', making it look like readable English. Many
+                        La ciudad de Copahue se encuentra a 375 km de Neuquén
+                        Capital (aproximadamente 5 hs de viaje). El Hotel Valle
+                        del Volcán se encuentra integrado en la naturaleza
+                        entorno a las Termas de Copahue, es un hotel que busca
+                        brindar comodidad y hospitalidad para favorecer el
+                        descanso de los clientes.
                       </p>
                       <br></br>
                       <p>
-                        desktop publishing packages and web page editors now use
-                        Lorem Ipsum as their default model text, and a search
-                        for 'lorem ipsum' will uncover many web sites still in
-                        their infancy. Various versions have evolved over the
-                        years, sometimes by accident, sometimes on purpose
-                        (injected humour and the like).
+                        Si viajas desde Buenos Aires, las empresas aéreas que
+                        llegan a Neuquén son Latam y Aerolíneas Argentinas.
+                        Algunas de las empresas que viajan por tierra son Vía
+                        Bariloche, El Valle, Crucero Del Norte. Luego de llegar
+                        a Neuquén Capital debe empalmar su viaje hasta Copahue
+                        en un bus especial de la empresa Cono Sur. Desde
+                        cualquier destino que viajes rumbo a Copahue la mejor
+                        opción es llegar a Neuquén Capital por la mañana para
+                        empalmar de manera más cómoda el trayecto a Copahue.
                       </p>
                     </div>
                   </div>

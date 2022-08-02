@@ -49,14 +49,14 @@ const Footer: React.FC<FooterProps> = () => {
                         Precios
                       </a>
                     </li> */}
-                    <li>
+                    {/* <li>
                       <Link
                         to="/reservacion"
                         title=""
                       >
                         Reservas
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link
                         to="/nuestros-servicios"

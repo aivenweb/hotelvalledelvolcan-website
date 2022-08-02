@@ -50,7 +50,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                   Reservas
                 </Link>
               </li> */}
-              {/* <li className="dropdown ">
+              <li className="dropdown ">
                 <Link
                   to="/sobre-nosotros"
                   title="Nosotros"
@@ -59,7 +59,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
                 >
                   Nosotros
                 </Link>
-              </li> */}
+              </li>
               <li className="dropdown ">
                 <Link
                   to="/nuestros-servicios"
