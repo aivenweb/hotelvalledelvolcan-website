@@ -25,7 +25,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
               to="/"
               title="Skyline"
             >
-              <img src="./Home 1_files/sky-logo-header.png" alt="#" />
+              <img src="/assets/images/logo-hotel-valle-del-volcan.png" alt="Logo de Hotel Valle del Volcán" width="85px" />
             </Link>
           </div>
           <div className="collapse navbar-collapse">
