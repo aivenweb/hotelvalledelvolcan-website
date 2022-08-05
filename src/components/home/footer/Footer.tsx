@@ -32,7 +32,7 @@ const Footer: React.FC<FooterProps> = () => {
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div className="footer-logo text-center list-content">
                   <a href="/index.html" title="Skyline">
-                    <img src="/assets/images/logo-hotel-valle-del-volcan.png" alt="Logo de Hotel Valle del Volcán" width="130px" />
+                    <img src="/assets/images/logo-hotel-valle-del-volcan2.png" alt="Logo de Hotel Valle del Volcán" width="130px" />
                   </a>
                 </div>
               </div>
