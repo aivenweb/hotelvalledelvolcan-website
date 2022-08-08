@@ -118,9 +118,14 @@ const Footer: React.FC<FooterProps> = () => {
                 Copyright © 2022 by
                 <a
                   href="https://naniitevez.github.io"
-                  title=""
+                  title="Nicole Tevez"
                 >
-                  {" "}Nicole Tevez.{" "}
+                  {" "}Nicole Tevez{" "}
+                </a> y <a
+                  href="https://lautarocarro.com"
+                  title="Lautaro Carro"
+                >
+                  {" "}Lautaro Carro{" "}
                 </a>
                 Hotel Valle del Volcán
               </div>
