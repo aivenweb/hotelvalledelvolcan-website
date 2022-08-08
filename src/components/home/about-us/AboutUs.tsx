@@ -14,13 +14,13 @@ const AboutUs: React.FC<AboutUsProps> = () => {
                 <h2 className="about-title">Nosotros</h2>
                 <div className="line"></div>
                 <p className="about-p">
-                  Tenemos más de 25 años de experiencia en el rubro hotelero,
+                  Tenemos más de 25 años de experiencia en el rubro hotelero de Copahue,
                   brindando servicio y calidad a nuestros clientes.
                 </p>
                 <br></br>
                 <br></br>
                 <p className="about-p">
-                  Hotel valle del volcán es un establecimiento tres estrellas
+                  Hotel valle del volcán es un establecimiento tres estrellas ubicado junto a las termas de Copahue
                   atendido por sus dueños, con un trato personalizado y cuidado
                   hacia todos nuestros clientes. Nuestra política de venta Low
                   Cost nos permite siempre brindar el precio más bajo del
