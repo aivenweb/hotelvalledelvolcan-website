@@ -31,7 +31,7 @@ const Footer: React.FC<FooterProps> = () => {
             <div className="row padding-footer-mid">
               <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <div className="footer-logo text-center list-content">
-                  <a href="/index.html" title="Skyline">
+                  <a href="/index.html" title="Hotel Valle del Volcán">
                     <img src="/assets/images/logo-hotel-valle-del-volcan2.png" alt="Logo de Hotel Valle del Volcán" width="130px" />
                   </a>
                 </div>
@@ -95,7 +95,7 @@ const Footer: React.FC<FooterProps> = () => {
                   <ul>
                     <li>
                       <a
-                        href="http://landing.engotheme.com/html/skyline/demo/index.html#"
+                        href="#"
                         title=""
                       >
                         Herrero Ducloux 120, Copahue Q8348AGA Argentina
@@ -117,10 +117,10 @@ const Footer: React.FC<FooterProps> = () => {
               <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6 no-padding">
                 Copyright © 2022 by
                 <a
-                  href="http://landing.engotheme.com/html/skyline/demo/index.html#"
+                  href="https://naniitevez.github.io"
                   title=""
                 >
-                  Nicole Tevez.
+                  {" "}Nicole Tevez.{" "}
                 </a>
                 Hotel Valle del Volcán
               </div>
