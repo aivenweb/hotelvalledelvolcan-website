@@ -4,14 +4,14 @@ interface ServicesCardProps {
   title: string;
   description: string;
   image: string;
-  imageDescription: string;
+  alt: string;
 }
 
 const ServicesCard: React.FC<ServicesCardProps> = ({
   title,
   description,
   image,
-  imageDescription,
+  alt,
 }) => {
   return (
     <div className="col-lg-6 service-card">
@@ -24,7 +24,7 @@ const ServicesCard: React.FC<ServicesCardProps> = ({
             </div>
           </div>
           <div className="service-img">
-            <img className="image-fit" src={image} alt={imageDescription} />
+            <img className="image-fit" src={image} alt={alt} />
           </div>
         </div>
       </div>

@@ -23,7 +23,7 @@ const MenuHeader: React.FC<MenuHeaderProps> = () => {
             <Link
               className="navbar-brand"
               to="/"
-              title="Skyline"
+              title="Hotel Valle del Volcán"
             >
               <img src="/assets/images/logo-hotel-valle-del-volcan.png" alt="Logo de Hotel Valle del Volcán" width="85px" />
             </Link>
