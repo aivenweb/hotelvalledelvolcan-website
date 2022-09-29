@@ -15,6 +15,7 @@ const CarouselComponent: React.FC<CarouselComponentProps> = () => {
         showIndicators={false}
         interval={5000}
         transitionTime={1000}
+        swipeable={false}
         infiniteLoop
         autoPlay
       >
